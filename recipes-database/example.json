@@ -1,0 +1,32 @@
+var json = {
+	"cooking": [
+	{
+		"name": "bakedChicken",
+		"keyword": [{
+			"ingredient": "sour cream"
+		}, {
+			"ingredient": " boneless chicken breast"
+		}, {
+			"ingredient": "black pepper"
+			},{
+			"ingredient": "sour cream"
+		}, {
+			"ingredient": "dijon mustard"
+		}, {
+			"ingredient": "minced garlic"
+		}],
+		"cookingTime": "50",
+		"difficulty": "easy",
+		"details": "enter info for details"
+	}, {
+		"name": "gumbo",
+		"keyword": [{
+			"ingredient": "sausage"
+		}, {
+			"ingredient": "chicken"
+		}],
+		"cookingTime": "60",
+		"difficulty": "easy",
+		"details": "enter info for details"
+	}]
+}
