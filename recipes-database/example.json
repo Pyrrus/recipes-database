@@ -17,16 +17,375 @@ var json = {
 		}],
 		"cookingTime": "50",
 		"difficulty": "easy",
-		"details": "enter info for details"
+		"details": "Preheat an oven to 400 degrees F (200 degrees C). Butter a baking dish.
+Whisk the sour cream, Dijon mustard, garlic, and pepper together in a large bowl. Add the chicken and turn to assure the breasts are well coated. Refrigerate 20 to 30 minutes.
+Combine the cornflakes and onion soup mix in a bowl. Gently press the chicken breasts into the cornflakes mixture to coat and shake off any excess. Lie the coated breasts in the buttered baking dish. Drizzle the melted butter over the chicken.
+Bake in the preheated oven until the chicken is golden brown, 20 to 25 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F"
 	}, {
-		"name": "gumbo",
+		"name": "pancakes",
 		"keyword": [{
-			"ingredient": "sausage"
+			"ingredient": "white sugar"
 		}, {
-			"ingredient": "chicken"
-		}],
+			"ingredient": "salt"
+		}, {
+			"ingredient": "white vinegar"
+			}, {
+				"ingredient": "baking powder"
+				}, {
+					"ingredient": "egg"
+					}],
 		"cookingTime": "60",
 		"difficulty": "easy",
-		"details": "enter info for details"
-	}]
+		"details": "Combine milk with vinegar in a medium bowl and set aside for 5 minutes to "sour".
+Combine flour, sugar, baking powder, baking soda, and salt in a large mixing bowl. Whisk egg and butter into "soured" milk. Pour the flour mixture into the wet ingredients and whisk until lumps are gone.
+Heat a large skillet over medium heat, and coat with cooking spray. Pour 1/4 cupfuls of batter onto the skillet, and cook until bubbles appear on the surface. Flip with a spatula, and cook until browned on the other side."
+	},{
+		"name": "french toast",
+		"keyword": [{
+			"ingredient": "white sugar"
+		}, {
+			"ingredient": "ground cinnamon"
+		}, {
+			"ingredient": "french bread"
+			}, {
+				"ingredient": "Butter"
+				}, {
+					"ingredient": "egg"
+					}, {
+						"ingredient": "sour-cream"
+						},{
+							"ingredient": "whipped topping"
+							}],
+		"cookingTime": "35",
+		"difficulty": "easy",
+		"details": "In a medium bowl, whisk together the eggs, milk, 2 tablespoons of sugar, and cinnamon. Melt one tablespoon of butter in a large skillet over medium heat. Dip a few bread slices into the egg mixture just to coat. Place in the hot skillet, and cook until golden on each side, about 4 minutes per side. Repeat with remaining slices of bread. Melt 1 tablespoon of butter in the skillet before frying each batch of toast.
+While the toast is cooking, mix cream cheese, 2 tablespoons of sugar, sour cream, and whipped topping using an electric mixer or blender until smooth, yet firm.
+Place servings of warm French toast onto plates, and top with a generous dollop of the frosting."
+	}, {
+		"name": "fish taco",
+		"keyword": [{
+			"ingredient": "corn starchr"
+		}, {
+			"ingredient": "salt"
+		}, {
+			"ingredient": "white vinegar"
+			}, {
+				"ingredient": "baking powder"
+				}, {
+					"ingredient": "egg"
+					}, {
+						"ingredient": "beer"
+						}, {
+							"ingredient": "mayo"
+							}, {
+								"ingredient": "jalapeno pepper"
+								}, {
+									"ingredient": "cod"
+									}, {
+										"ingredients": "cumin, dill weed, cayenne, oil cabbage, tortilla"
+										}],
+		"cookingTime": "60",
+		"difficulty": "easy",
+		"details": "o make beer batter: In a large bowl, combine flour, cornstarch, baking powder, and salt. Blend egg and beer, then quickly stir into the flour mixture (don't worry about a few lumps).
+To make white sauce: In a medium bowl, mix together yogurt and mayonnaise. Gradually stir in fresh lime juice until consistency is slightly runny. Season with jalapeno, capers, oregano, cumin, dill, and cayenne.
+Heat oil in deep-fryer to 375 degrees F (190 degrees C).
+Dust fish pieces lightly with flour. Dip into beer batter, and fry until crisp and golden brown. Drain on paper towels. Lightly fry tortillas; not too crisp. To serve, place fried fish in a tortilla, and top with shredded cabbage, and white sauce."
+	}, {
+		"name": "baked fish",
+		"keyword": [{
+			"ingredient": "garlic powder"
+		}, {
+			"ingredient": "salt"
+		}, {
+			"ingredient": "lemon"
+			}, {
+				"ingredient": "swai fish"
+				}, {
+					"ingredient": "butter"
+					}],
+		"cookingTime": "25",
+		"difficulty": "easy",
+		"details": "Preheat oven to 350 degrees F (175 degrees C).
+Place fish in a baking dish and drizzle melted butter over fish; season with garlic powder, garlic pepper seasoning, and salt. Top fish with lemon slices and capers.
+Bake in the preheated oven until fish flakes easily with a fork, 15 to 20 minutes."
+	}, {
+		"name": "staek on a stick",
+		"keyword": [{
+			"ingredient": "soy sauce"
+		}, {
+			"ingredient": "virgin olive oil"
+		}, {
+			"ingredient": "white vinegar"
+			}, {
+				"ingredient": "molasses"
+				}, {
+					"ingredient": "mustard powder"
+					}, {
+						"ingredients": "ginger, garlic powder, onion powder, flank steak, wooden skewers"
+						}],
+		"cookingTime": "8h20m",
+		"difficulty": "easy",
+		"details": "In a large resealable bag, combine the soy sauce, olive oil, water, molasses, mustard powder, ginger, garlic powder and onion powder. Seal and shake the bag to mix together. Add steak strips to the bag and seal. Refrigerate for at least 8 hours to marinate.
+Preheat the oven's broiler. Thread meat onto skewers and place on a broiling rack.
+Broil the steak for 3 to 4 minutes on each side. Arrange on a platter to serve."
+	}, {
+		"name": "roasted chicken",
+		"keyword": [{
+			"ingredient": "whole chicken"
+		}, {
+			"ingredient": "onion powder"
+		}, {
+			"ingredient": "margarin"
+			}, {
+				"ingredient": "celery"
+				}, {
+					"ingredient": "salt"
+					}],
+		"cookingTime": "1h40m",
+		"difficulty": "easy",
+		"details": "Preheat oven to 350 degrees F (175 degrees C).
+Place chicken in a roasting pan, and season generously inside and out with salt and pepper. Sprinkle inside and out with onion powder. Place 3 tablespoons margarine in the chicken cavity. Arrange dollops of the remaining margarine around the chicken's exterior. Cut the celery into 3 or 4 pieces, and place in the chicken cavity.
+Bake uncovered 1 hour and 15 minutes in the preheated oven, to a minimum internal temperature of 180 degrees F (82 degrees C). Remove from heat, and baste with melted margarine and drippings. Cover with aluminum foil, and allow to rest about 30 minutes before serving."
+	}, {
+		"name": "garlic kale",
+		"keyword": [{
+			"ingredient": "virgin olive oil"
+		} {
+					}],
+		"cookingTime": "60",
+		"difficulty": "easy",
+		"details": "Soak kale leaves in a large bowl of water until dirt and sand begin to fall to the bottom, about 2 minutes. Lift kale from the bowl without drying the leaves and immediately remove and discard stems. Chop the kale leaves into 1-inch pieces.
+Heat olive oil in a large skillet over medium heat; cook and stir garlic until sizzling, about 1 minute. Add kale to the skillet and place a cover over the top.
+Cook, stirring occasionally with tongs, until kale is bright green and slightly tender, 5 to 7 minutes."
+	},{
+			"name": "garlic green beans",
+			"keyword": [{
+				"ingredients": "butter, green beans, garlic, salt"
+			} {
+						}],
+			"cookingTime": "20",
+			"difficulty": "easy",
+			"details": "Melt butter in a skillet over medium heat; cook and stir green beans and garlic until beans begin to thaw. Season with salt and continue cooking and stirring until beans are lightly browned, 10 to 15 minutes."
+		},{
+				"name": "grilled asparagus",
+				"keyword": [{
+					"ingredients": "olive oil,asparagus, salt"
+				} {
+							}],
+				"cookingTime": "18",
+				"difficulty": "easy",
+				"details": "Preheat grill for high heat.
+Lightly coat the asparagus spears with olive oil. Season with salt and pepper to taste.
+Grill over high heat for 2 to 3 minutes, or to desired tenderness."
+			},{
+				{
+						"name": "glazed carrots",
+						"keyword": [{
+							"ingredient": "Carrots, butter, salt, brown sugar, white pepper"
+						} {
+									}],
+						"cookingTime": "25",
+						"difficulty": "easy",
+						"details": "Place carrots into a large saucepan, pour in enough water to reach depth of 1 inch, and bring to a boil. Reduce heat to low, cover, and simmer carrots until tender, 8 to 10 minutes. Drain and transfer to a bowl.
+Melt butter in the same saucepan; stir brown sugar, salt, and white pepper into butter until brown sugar and salt have dissolved. Transfer carrots into brown sugar sauce; cook and stir until carrots are glazed with sauce, about 5 more minutes."
+}, {
+	{
+			"name": "groasted balsamic cauliflower",
+			"keyword": [{
+				"ingredient": "virgin olive oil, balsamic vinegar, salt, garlic, cauliflower"
+			} {
+						}],
+			"cookingTime": "30",
+			"difficulty": "easy",
+			"details": "Preheat oven to 450 degrees F (230 degrees C). Line a baking sheet with aluminum foil
+Stir the olive oil, balsamic vinegar, salt, and garlic together in a bowl. Add the cauliflower and toss to coat; spread the mixture onto the lined baking sheet.
+Stirring occasionally, bake in the preheated oven until tender, about 20 minutes."
+
+	}, {
+		{
+				"name": "pork chops",
+				"keyword": [{
+					"ingredient": "virgin olive oil, black pepper, garlic, salt, pork, cassava roots"
+				} {
+							}],
+				"cookingTime": "60",
+				"difficulty": "easy",
+				"details": "Preheat the oven to 425 degrees F (220 degrees C).
+Place the garlic, salt, pepper, oregano, and olive oil into the container of a food processor or blender. Process until smooth. Use a small knife to make several incisions in the fresh ham. Insert the garlic paste into each one using a small spoon. Place the ham in a roaster, and cover.
+Bake for 1 1/2 hours in the preheated oven, then check every 15 minutes or so, until the internal temperature reaches 175 degrees F ( 80 degrees C) when taken with a meat thermometer.
+While the meat is roasting, place the yucca in a large pot of boiling water. Cook until fork tender, and drain. Serve with pork roast."
+
+		}, {
+			{
+					"name": "eggs benedict",
+					"keyword": [{
+						"ingredient": "virgin olive oil, eggs, white pepper, worcestire sauce, butter, eggs, white vinegar, canadian bacon, english muffins"
+					} {
+								}],
+					"cookingTime": "30",
+					"difficulty": "easy",
+					"details": "To Make Hollandaise: Fill the bottom of a double boiler part-way with water. Make sure that water does not touch the top pan. Bring water to a gentle simmer. In the top of the double boiler, whisk together egg yolks, lemon juice, white pepper, Worcestershire sauce, and 1 tablespoon water.
+Add the melted butter to egg yolk mixture 1 or 2 tablespoons at a time while whisking yolks constantly. If hollandaise begins to get too thick, add a teaspoon or two of hot water. Continue whisking until all butter is incorporated. Whisk in salt, then remove from heat. Place a lid on pan to keep sauce warm.
+Preheat oven on broiler setting. To Poach Eggs: Fill a large saucepan with 3 inches of water. Bring water to a gentle simmer, then add vinegar. Carefully break eggs into simmering water, and allow to cook for 2 1/2 to 3 minutes. Yolks should still be soft in center. Remove eggs from water with a slotted spoon and set on a warm plate
+While eggs are poaching, brown the bacon in a medium skillet over medium-high heat and toast the English muffins on a baking sheet under the broiler.
+Spread toasted muffins with softened butter, and top each one with a slice of bacon, followed by one poached egg. Place 2 muffins on each plate and drizzle with hollandaise sauce. Sprinkle with chopped chives and serve immediately."
+						}, {
+
+									"name": "bacon",
+									"keyword": [{
+										"ingredient": "raw pork belly, brown sugar, apple or hickory wood chips"
+									} {
+												}],
+									"cookingTime": "6d6h10m",
+									"difficulty": "easy",
+									"details": "n a 2 gallon container, mix together the brown sugar, curing mixture, and water. Submerge the pork belly in the mixture so that it is covered completely. If the meat floats, you can weigh it down with a dinner plate or similar object. Refrigerate covered for six days.
+Light charcoal in an outdoor smoker. Soak wood chips in a bowl of water. When the temperature of the smoker is between 140 and 150 degrees coals are ready. Smoke the pork belly for 6 hours, throwing a handful of wood chips on the coals about once an hour. Store in the refrigerator. Slice and fry as you would with store-bought bacon."
+
+							}, {
+
+								}, {
+									{
+											"name": "grilled cod",
+											"keyword": [{
+												"ingredient": "virgin olive oil, cajun, cod, salt, black pepper, butter , lemon juice, green onion"
+											} {
+														}],
+											"cookingTime": "35",
+											"difficulty": "easy",
+											"details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.
+Season both sides of cod with Cajun seasoning, lemon pepper, salt, and black pepper. Set fish aside on a plate. Heat butter in a small saucepan over medium heat, stir in lemon juice and green onion, and cook until onion is softened, about 3 minutes.
+Place cod onto oiled grates and grill until fish is browned and flakes easily, about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heat for about 5 minutes before serving."
+
+									}, {
+										"name": "grilled cod",
+										"keyword": [{
+											"ingredient": "virgin olive oil, cajun, cod, salt, black pepper, butter , lemon juice, green onion"
+										} {
+													}],
+										"cookingTime": "35",
+										"difficulty": "easy",
+										"details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.
+Season both sides of cod with Cajun seasoning, lemon pepper, salt, and black pepper. Set fish aside on a plate. Heat butter in a small saucepan over medium heat, stir in lemon juice and green onion, and cook until onion is softened, about 3 minutes.
+Place cod onto oiled grates and grill until fish is browned and flakes easily, about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heat for about 5 minutes before serving."
+
+								}, {
+									"name": "grilled cod",
+									"keyword": [{
+										"ingredient": "virgin olive oil, cajun, cod, salt, black pepper, butter , lemon juice, green onion"
+									} {
+												}],
+									"cookingTime": "35",
+									"difficulty": "easy",
+									"details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.
+Season both sides of cod with Cajun seasoning, lemon pepper, salt, and black pepper. Set fish aside on a plate. Heat butter in a small saucepan over medium heat, stir in lemon juice and green onion, and cook until onion is softened, about 3 minutes.
+Place cod onto oiled grates and grill until fish is browned and flakes easily, about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heat for about 5 minutes before serving."
+
+									}, {
+										"name": "grilled cod",
+										"keyword": [{
+											"ingredient": "virgin olive oil, cajun, cod, salt, black pepper, butter , lemon juice, green onion"
+										} {
+													}],
+										"cookingTime": "35",
+										"difficulty": "easy",
+										"details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.
+		Season both sides of cod with Cajun seasoning, lemon pepper, salt, and black pepper. Set fish aside on a plate. Heat butter in a small saucepan over medium heat, stir in lemon juice and green onion, and cook until onion is softened, about 3 minutes.
+		Place cod onto oiled grates and grill until fish is browned and flakes easily, about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heat for about 5 minutes before serving."
+
+
+										}, {
+											"name": "grilled cod",
+											"keyword": [{
+												"ingredient": "virgin olive oil, cajun, cod, salt, black pepper, butter , lemon juice, green onion"
+											} {
+														}],
+											"cookingTime": "35",
+											"difficulty": "easy",
+											"details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.
+		Season both sides of cod with Cajun seasoning, lemon pepper, salt, and black pepper. Set fish aside on a plate. Heat butter in a small saucepan over medium heat, stir in lemon juice and green onion, and cook until onion is softened, about 3 minutes.
+		Place cod onto oiled grates and grill until fish is browned and flakes easily, about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heat for about 5 minutes before serving."
+
+									}, {
+										"name": "grilled cod",
+										"keyword": [{
+											"ingredient": "virgin olive oil, cajun, cod, salt, black pepper, butter , lemon juice, green onion"
+										} {
+													}],
+										"cookingTime": "35",
+										"difficulty": "easy",
+										"details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.
+Season both sides of cod with Cajun seasoning, lemon pepper, salt, and black pepper. Set fish aside on a plate. Heat butter in a small saucepan over medium heat, stir in lemon juice and green onion, and cook until onion is softened, about 3 minutes.
+Place cod onto oiled grates and grill until fish is browned and flakes easily, about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heat for about 5 minutes before serving."
+
+								}, {
+									"name": "grilled cod",
+									"keyword": [{
+										"ingredient": "virgin olive oil, cajun, cod, salt, black pepper, butter , lemon juice, green onion"
+									} {
+												}],
+									"cookingTime": "35",
+									"difficulty": "easy",
+									"details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.
+Season both sides of cod with Cajun seasoning, lemon pepper, salt, and black pepper. Set fish aside on a plate. Heat butter in a small saucepan over medium heat, stir in lemon juice and green onion, and cook until onion is softened, about 3 minutes.
+Place cod onto oiled grates and grill until fish is browned and flakes easily, about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heat for about 5 minutes before serving."
+
+							}, {
+								"name": "grilled cod",
+								"keyword": [{
+									"ingredient": "virgin olive oil, cajun, cod, salt, black pepper, butter , lemon juice, green onion"
+								} {
+											}],
+								"cookingTime": "35",
+								"difficulty": "easy",
+								"details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.
+Season both sides of cod with Cajun seasoning, lemon pepper, salt, and black pepper. Set fish aside on a plate. Heat butter in a small saucepan over medium heat, stir in lemon juice and green onion, and cook until onion is softened, about 3 minutes.
+Place cod onto oiled grates and grill until fish is browned and flakes easily, about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heat for about 5 minutes before serving."
+
+						}, {
+
+							}]
+								}]
+									}]
+										}]
+											}]
+										}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		}]
+		}]
+		}]
+		}]
+		}]
+		}]
+		}]
 }
