@@ -1,0 +1,410 @@
+var json = {
+	"cooking": [
+	{
+		"name": "Veggie Stir-Fry",
+		"keyword": [{
+			"ingredient": "sugar snap peas"
+		}, {
+			"ingredient": "chicken"
+		}, {
+      "ingredient": "rice"
+    }, {
+      "ingredient": "soy sauce"
+    }, {
+      "ingredient": "garlic"
+    }, {
+      "ingredient": "sesame oil"
+    }],
+		"cookingTime": "15",
+		"difficulty": "easy",
+		"details": "Start cooking 1lb. chicken in 2 teaspoons of sesame oil on medium-high heat. When it has begun to brown reduce heat to medium and add in 3 cups of sugar snap peas, 2 tablespoons of soy sauce and 2 cloves of garlic. Cook until the peas are done (about 7 or 8 minutes) Plate on rice. To make rice: google it."
+	}, {
+		"name": "Lasagna",
+		"keyword": [{
+			"ingredient": "onion"
+		}, {
+			"ingredient": "canned mushrooms"
+		}, {
+			"ingredient": "spaghetti sauce"
+		}, {
+			"ingredient": "cottage cheese"
+		}, {
+			"ingredient": "lasagna noodles"
+		}, {
+			"ingredient": "mozzarella cheese"
+		}, {
+			"ingredient": "ricotta cheese"
+		}, {
+			"ingredient": "parmesan cheese"
+		}, {
+			"ingredient": "eggs"
+		}, {
+			"ingredient": "ground beef"
+		}],
+		"cookingTime": "90",
+		"difficulty": "medium",
+		"details": "Preheat oven to 350 degrees. Brown 1lb. ground beef in skillet. Add 5 ounces canned mushrooms and 1 chopped onion and cook until onions are transparent. Stir in pasta sauce and heat throughout. Separately combine 16 ounces of cottage cheese, 1 pint ricotta cheese, 1/4 cup parmesan, and 2 eggs in a bowl. In a 13x9 inch pan create layers of meat sauce, lasagna noodles, cheese mixture and mozzarella cheese (8 ounces). Bottom layer should be meat sauce. Cover pan in foil and bake for 60 minutes"
+	}, {
+    "name": "Southwest Salad",
+    "keyword": [{
+      "ingredient": "romain lettuce"
+    }, {
+      "ingredient": "corn"
+    }, {
+      "ingredient": "black beans"
+    }, {
+      "ingredient": "cheese"
+    }, {
+      "ingredient": "red onion"
+    }, {
+      "ingredient": "tortilla chips"
+    }, {
+      "ingredient": "southwest dressing"
+    }, {
+      "ingredient": "olive oil"
+    }],
+    "cookingTime": "10",
+    "difficulty": "easy",
+    "details": "Dice a half red onion and cook in 1 tablespoon of olive oil until translucent. Chop 2 heads of romain lettuce into bite size strips. Add 3/4 cup of black beans, 3/4 cup of corn, 1 cup shredded cheese and tortilla chips. Add an amount of southwest dressing according to preference."
+  }, {
+    "name": "Ham Sandwich",
+  		"keyword": [{
+  			"ingredient": "bread"
+  		}, {
+  			"ingredient": "ham"
+  		}, {
+  			"ingredient": "cheese"
+  		}, {
+  			"ingredient": "lettuce"
+  		}, {
+  			"ingredient": "onion"
+  		}, {
+  			"ingredient": "mustard"
+  		}, {
+  			"ingredient": "mayonnaise"
+  		}],
+  		"cookingTime": "5",
+  		"difficulty": "easy",
+  		"details": "Lay out 2 pieces of bread. Add mustard and Mayonaise to one piece of bread. Apportion ham and cheese on bread according to preference/hunger. Cut off a couple thin layers of onion and add to sandwich with some cut lettuce."
+  }, {
+    "name": "Grilled Double cheese",
+  		"keyword": [{
+  			"ingredient": "bread"
+  		}, {
+  			"ingredient": "cheese"
+  		}, {
+  			"ingredient": "butter"
+  		}],
+  		"cookingTime": "10",
+  		"difficulty": "easy",
+  		"details": "Lay out 2 pieces of bread. Apply butter to the top of each piece and then flip the butter side down in a pan and lay cheese on the now face-up side. Cook on low until the cheese is soft and the butter-side is browned. Remove bread from the pan, add an unhealthy amount of butter to the pan and then add one of the pieces of bread back to the pan cheese side down in a pool of butter. Add more cheese to the, now face up, browned face of the bread. Do this to both pieces of bread and squish them together."
+  }, {
+    "name": "NE Clam Chowder",
+  		"keyword": [{
+  			"ingredient": "bacon"
+  		}, {
+  			"ingredient": "onion"
+  		}, {
+  			"ingredient": "potato"
+  		}, {
+  			"ingredient": "salt"
+  		}, {
+  			"ingredient": "black pepper"
+  		}, {
+  			"ingredient": "half-and-half"
+  		}, {
+  			"ingredient": "butter"
+  		}, {
+  			"ingredient": "minced clams"
+  		}],
+  		"cookingTime": "45",
+  		"difficulty": "medium",
+  		"details": "Cook 4 slices bacon in large stock pot over medium-high heat. Cook until almost crisp and then add 1.5 chopped onions and cook 5 minutes. Add 1.5 cups water and 4 peeled, cubed potatoes. Add 1.5 teaspoons salt and pepper to taste. Cook 15 minutes uncovered. Add 3 cups half-and-half and 3 tablespoons butter. Drain clams reserving liquid. Add 2 10 ounce cans minced clams and half of the liquid to the soup. Cook 5 more minutes. Do not boil. "
+  }, {
+    "name": "Grilled Asparagus",
+  		"keyword": [{
+  			"ingredient": "asparagus"
+  		}, {
+  			"ingredient": "olive oil"
+  		}, {
+  			"ingredient": "salt"
+  		}],
+  		"cookingTime": "15",
+  		"difficulty": "easy",
+  		"details": "Add 1.5 tablespoons olive oil to a pan and heat. Once warm enough to cover bottom of pan easily, add in a bushel of asparagus spears and 2 teaspoons salt. Cook until tender."
+  }, {
+    "name": "Rosemary Roasted Potatoes",
+  		"keyword": [{
+  			"ingredient": "red potatoes"
+  		}, {
+  			"ingredient": "olive oil"
+  		}, {
+  			"ingredient": "salt"
+  		}, {
+        "ingredient": "pepper"
+      }, {
+        "ingredient": "garlic"
+      }, {
+        "ingredient": "rosemary leaves"
+      }],
+  		"cookingTime": "70",
+  		"difficulty": "easy",
+  		"details": "Preheat oven to 400 degrees. Cut 1.5 lbs. red potatoes in half and toss with 1/8 cup olive oil, 3/4 teaspoon salt, 1/2 teaspoons pepper, 1 tablespoon minced garlic and 2 tablespoons minced rosemary. Dump coated potatoes on baking sheet and spread them out. Roast 1 hour or until browned. Flip twice during cooking"
+  }, {
+    "name": "Pan-fried Pork chops",
+  		"keyword": [{
+  			"ingredient": "salt"
+  		}, {
+  			"ingredient": "pepper"
+  		}, {
+  			"ingredient": "pork chops"
+  		}, {
+  			"ingredient": "flour"
+  		}, {
+  			"ingredient": "Cayenne pepper"
+  		}, {
+  			"ingredient": "canola oil"
+  		}, {
+  			"ingredient": "butter"
+  		}],
+  		"cookingTime": "40",
+  		"difficulty": "medium",
+  		"details": "Salt and pepper both sides of 8 pork chops. Combine 1 cup flour, a pinch of cayenne pepper, salt and pepper in a bowl. Dredge each pork chop in the bowl to coat them. Heat a half cup of canola oil over medium heat. Add 1 tablespoon butter. Cook coated pork chops in fat mixture. 2-3 minutes per side."
+  }, {
+    "name": "Scalloped Potatoes",
+  		"keyword": [{
+  			"ingredient": "potato"
+  		}, {
+  			"ingredient": "butter"
+  		}, {
+  			"ingredient": "flour"
+  		}, {
+  			"ingredient": "milk"
+  		}, {
+  			"ingredient": "salt"
+  		}, {
+  			"ingredient": "cayenne"
+  		}, {
+  			"ingredient": "cheese"
+  		}],
+  		"cookingTime": "75",
+  		"difficulty": "medium",
+  		"details": "Melt 3 tablespoons butter in a saucepan, combine with 3 tablespoons flour and let sit for 1 minute. Add 1.5 cups cold milk and whisk. Season with 1 tsp. salt and 1 pinch cayenne. Cook on low until rolling boil. Reduce heat and stir in 1 cup cheese. Place half your 4 cups of sliced potatoes in a lightly greased 1 quart casserole dish. Pour half the cheese sauce over the potatoes. Repeat with the second half of cheese sauce and potatoes. Sprinkle another half cup of shredded cheese on top."
+  }, {
+    "name": "Clam Roll",
+  		"keyword": [{
+  			"ingredient": "flour"
+  		}, {
+  			"ingredient": "corn flour"
+  		}, {
+  			"ingredient": "salt"
+  		}, {
+  			"ingredient": "pepper"
+  		}, {
+  			"ingredient": "soft shell clams"
+  		}, {
+  			"ingredient": "evaporated milk"
+  		}, {
+  			"ingredient": "vegetable oil"
+  		}, {
+  			"ingredient": "butter"
+  		}, {
+  			"ingredient": "hot dog roll"
+  		}],
+  		"cookingTime": "20",
+  		"difficulty": "medium",
+  		"details": "Preheat grill. Combine 8 ounces white flour, 8 ounces corn flour, 1 tsp. salt, and 1 teaspoon pepper in a bowl. Dip 6 ounces of soft shell clams in 1 cup evaporated milk and then dredge in the flour mixture. Heat vegetable oil for frying in a pot to 350 degrees. Fry the clams in the  vegetable oil for 1-2 minutes each or until golden brown. Lightly butter a hot dog roll place clams in the roll."
+  }, {
+    "name": "Crab Cakes",
+  		"keyword": [{
+  			"ingredient": "bread crumbs"
+  		}, {
+  			"ingredient": "green onions"
+  		}, {
+  			"ingredient": "sweet red pepper"
+  		}, {
+  			"ingredient": "egg"
+  		}, {
+  			"ingredient": "mayonnaise"
+  		}, {
+  			"ingredient": "lemon juice"
+  		}, {
+  			"ingredient": "garlic powder"
+  		}, {
+  			"ingredient": "cayenne pepper"
+  		}, {
+  			"ingredient": "crab meat"
+  		}, {
+  			"ingredient": "butter"
+  		}],
+  		"cookingTime": "25",
+  		"difficulty": "easy",
+  		"details": "Combine 1/3 cup bread crumbs 2 finely chopped green onions, 1/4 cup finely chopped sweet red pepper, 1 egg, 1/4 cup mayonnaise, 1 tablespoon lemon juice 1/2 teaspoon garlic powder and 1/8 teaspoon cayenne pepper in a bowl. Fold in 2 6 ounce cans of crabmeat. Place 2/3 cup bread crumbs in another bowl. Shape crab mixture into 2-in. balls and coat them in bread crumbs. Coat a skillet in butter and cook the crab cakes for 3-4 minutes each in butter."
+  }, {
+    "name": "Lobster Roll",
+  		"keyword": [{
+  			"ingredient": "lobster"
+  		}, {
+  			"ingredient": "mayonnaise"
+  		}, {
+  			"ingredient": "lemon juice"
+  		}, {
+  			"ingredient": "celery"
+  		}, {
+  			"ingredient": "parsley"
+  		}, {
+  			"ingredient": "salt"
+  		}, {
+  			"ingredient": "pepper"
+  		}, {
+  			"ingredient": "hot dog bun"
+  		}, {
+  			"ingredient": "butter"
+  		}],
+  		"cookingTime": "20",
+  		"difficulty": "easy",
+  		"details": "Combine 1.5 lbs. lobster meat, 1/2 cup mayonnaise, 3 tablespoons lemon juice, 2 chopped celery stalks, 2 tablespoons chopped parsley and salt and pepper to taste in a bowl. Let sit in the fridge for 5-10 minutes. Brush hot dog buns with melted butter and load the buns with the lobster salad."
+  }, {
+    "name": "Beef Empanada",
+  		"keyword": [{
+  			"ingredient": "ground beef"
+  		}, {
+  			"ingredient": "onion"
+  		}, {
+  			"ingredient": "chili powder"
+  		}, {
+  			"ingredient": "salt"
+  		}, {
+  			"ingredient": "diced tomatoes"
+  		}, {
+  			"ingredient": "frozen pie crusts"
+  		}, {
+  			"ingredient": "cheese"
+  		}, {
+  			"ingredient": "egg"
+  		}],
+  		"cookingTime": "45",
+  		"difficulty": "easy",
+  		"details": "Preheat oven to 400 degrees. Cook 1lb. beef and a chopped, medium onion over medium-high heat in a skillet. Drain and stir in 1/2 teaspoon chili powder, 1/4 teaspoon salt and 1 can diced tomatoes. Remove from heat. On an ungreased large cookie sheet unroll pie crusts. Spoon about 2 cups beef mixture onto half of each crust and spread to within 1/2 inch of edge. Top each with 1/4 cup of Monterey Jack cheese. Brush edge of each crust with beaten egg and fold untopped half of each crust over filling. Seal with a fork press. Bake 20 to 25 minutes."
+  }, {
+    "name": "Breakfast Burrito",
+  		"keyword": [{
+  			"ingredient": "flour tortilla"
+  		}, {
+  			"ingredient": "egg"
+  		}, {
+  			"ingredient": "bacon"
+  		}, {
+  			"ingredient": "cheese"
+  		}, {
+  			"ingredient": "salt"
+  		}, {
+  			"ingredient": "pepper"
+  		}, {
+        "ingredient": "hashbrowns"
+      }, {
+        "ingredient": "salsa"
+      }],
+  		"cookingTime": "20",
+  		"difficulty": "easy",
+  		"details": "Scramble eggs in a pan with butter. Cook bacon until it begins to turn crispy. Bake hashbrowns in the oven at 400 degree for 10 minutes. Then load eggs, bacon and hashbrowns into a tortilla. Add salt and pepper to taste and top with cheese and salsa before rolling up the tortilla."
+  }, {
+    "name": "Grilled Asparagus",
+  		"keyword": [{
+  			"ingredient": "asparagus"
+  		}, {
+  			"ingredient": "olive oil"
+  		}, {
+  			"ingredient": "salt"
+  		}],
+  		"cookingTime": "15",
+  		"difficulty": "easy",
+  		"details": "Add 1.5 tablespoons olive oil to a pan and heat. Once warm enough to cover bottom of pan easily, add in a bushel of asparagus spears and 2 teaspoons salt. Cook until tender."
+  }, {
+    "name": "Pigs in a blanket",
+  		"keyword": [{
+  			"ingredient": "bisquick"
+  		}, {
+  			"ingredient": "milk"
+  		}, {
+  			"ingredient": "egg"
+  		}, {
+  			"ingredient": "sausage links"
+  		}, {
+  			"ingredient": "butter"
+  		}, {
+  			"ingredient": "maple syrup"
+  		}],
+  		"cookingTime": "15",
+  		"difficulty": "easy",
+  		"details": "Combine 2 cups Bisquick mix with 1 cup milk and 2 eggs. Use this mix to make pancakes. Separately, cook the same number of sausage links in a pan. Roll the cooked links in a pankcake each. Serve topped with butter and syrup."
+  }, {
+    "name": "Potato Pancakes",
+  		"keyword": [{
+  			"ingredient": "potato"
+  		}, {
+  			"ingredient": "yellow onion"
+  		}, {
+  			"ingredient": "egg"
+  		}, {
+  			"ingredient": "salt"
+  		}, {
+  			"ingredient": "pepper"
+  		}, {
+  			"ingredient": "flower"
+  		}, {
+  			"ingredient": "vegetable oil"
+  		}],
+  		"cookingTime": "30",
+  		"difficulty": "easy",
+  		"details": "Grate 4 large potatoes into a large bowl mix in 1 egg, 1 tsp. salt and black pepper to taste. Add 2-4 tablespoons to thicken. Heat oven to 200 degrees. Heat a quarter inch of vegetable oil in a skillet on medium-high heat drop two or three 1/4 cup mounds into hot oil and flatten to make 1/2 inch thick pancakes. Fry until golden brown and then flip. Keep warm in oven as they come out of the oil."
+  }, {
+    "name": "Garlic butter Shrimp",
+  		"keyword": [{
+  			"ingredient": "noodles"
+  		}, {
+  			"ingredient": "shrimp"
+  		}, {
+  			"ingredient": "garlic"
+  		}, {
+  			"ingredient": "salt"
+  		}, {
+  			"ingredient": "oregano"
+  		}, {
+  			"ingredient": "red pepper flakes"
+  		}, {
+  			"ingredient": "arugula"
+  		}, {
+  			"ingredient": "parmesan"
+  		}, {
+  			"ingredient": "parsley"
+  		}],
+  		"cookingTime": "20",
+  		"difficulty": "easy",
+  		"details": "In a large pot cook 8 ounces pasta and drain. Season shrimp with salt and pepper and set aside. Melt 2 tbls. butter in a large skillet over medium-high heat. Add 4 garlic cloves, 1/2 tsp. dried oregano, 1/2 tsp. crushed red pepper flakes and cook, stirring frequently, until fragrant, about 1-2 minutes. Add shrimp and cook, stirring occasionally, until pink, about 2-3 minutes and set aside. Melt 6 tbls. butter in a skillet. Stir in cooked pasta, 2 cups baby arugula and 1/4 cup parmesan. Heat until the arugula begins to wilt. Serve garnished with parsley. "
+  }, {
+    "name": "Savory Snack Wrap",
+  		"keyword": [{
+  			"ingredient": "tortilla"
+  		}, {
+  			"ingredient": "cheese"
+  		}, {
+  			"ingredient": "ham"
+  		}, {
+  			"ingredient": "turkey"
+  		}, {
+  			"ingredient": "sundried tomatoes"
+  		}, {
+  			"ingredient": "mustard"
+  		}, {
+  			"ingredient": "mayonnaise"
+  		}, {
+  			"ingredient": "lettuce"
+  		}, {
+  			"ingredient": "butter"
+  		}],
+  		"cookingTime": "15",
+  		"difficulty": "easy",
+  		"details": "In a large skillet heat butter and coat pan. Lay a tortilla in the pan and layer on some slices of cheese. Next add a layer of ham and turkey. Sprinkle in some sundried tomatoes and lettuce. Add a little mustard and mayonnaise. Roll up the snack wrap when the cheese has melted. "
+  }]
+}
