@@ -5,7 +5,7 @@ var data = {
     "keyword": [{
       "ingredient": "olive oil"
     },{
-      "ingredient": "shallot"
+      "ingredient": "shallots"
     },{
       "ingredient": "arborio rice"
     }, {
@@ -13,7 +13,7 @@ var data = {
     },{
       "ingredient": "dry white wine"
     }, {
-      "ingredient": "Kosher salt"
+      "ingredient": "kosher salt"
     },{
       "ingredient": "ground black pepper"
     }, {
@@ -23,7 +23,7 @@ var data = {
     }, {
       "ingredient": "smoked ham"
     },{
-      "ingredient": "white Cheddar cheese"
+      "ingredient": "white cheddar cheese"
     }, {
       "ingredient": "chives"
     }],
@@ -45,13 +45,13 @@ var data = {
     }, {
       "ingredient": "lime juice"
     },{
-      "ingredient": "ground black peppert"
+      "ingredient": "ground black pepper"
     }, {
       "ingredient": "carrots"
     },{
       "ingredient": "ground cumin"
     }, {
-      "ingredient": "taco shell"
+      "ingredient": "taco shells"
     }],
     "cookingTime": "60",
     "difficulty": "easy",
@@ -69,23 +69,23 @@ var data = {
   },{
     "name": "Lime and Pepper Shrimp",
     "keyword": [{
-      "ingredient": "Shrimp"
+      "ingredient": "shrimp"
     }, {
       "ingredient": "lime"
     }, {
-      "ingredient": "Pepper"
+      "ingredient": "pepper"
     }],
     "cookingTime": "20",
     "difficulty": "easy",
-    "details": "1: Put the Shrimp in the pan. 2: add lime and peppert to the shrimp. 3: Wait tell the shrimp is cook."
+    "details": "1: Put the Shrimp in the pan. 2: add lime and pepper to the shrimp. 3: Wait until the shrimp is cooked."
   },{
     "name": "Shrimp",
     "keyword": [{
-      "ingredient": "Shrimp"
+      "ingredient": "shrimp"
     }],
     "cookingTime": "20",
     "difficulty": "easy",
-    "details": "1: Put the Shrimp in the pan. 2: Wait tell the shrimp is cook. 3: Add Dipping sauce"
+    "details": "1: Put the Shrimp in the pan. 2: Wait until the shrimp is cooked. 3: Add Dipping sauce"
   }, {
     "name": "Roast Pork and Pickled Cucumber Sandwich",
     "keyword": [{
@@ -171,7 +171,7 @@ var data = {
     }, {
       "ingredient": "garlic"
     }, {
-      "ingredient": "tomatoe"
+      "ingredient": "tomato"
     }, {
       "ingredient": "avocado"
     }, {
@@ -263,7 +263,7 @@ var data = {
     }, {
       "ingredient": "black pepper"
     }, {
-      "ingredient": "egg"
+      "ingredient": "eggs"
     }, {
       "ingredient": "blackberry jam"
     }, {
@@ -279,7 +279,7 @@ var data = {
     "keyword": [{
       "ingredient": "olive oil"
     }, {
-      "ingredient": "tomatoe"
+      "ingredient": "tomato"
     }, {
       "ingredient": "salt"
     }, {
@@ -351,8 +351,6 @@ var data = {
     }, {
       "ingredient": "chicken"
     }, {
-      "ingredient": "butter"
-    }, {
       "ingredient": "garlic"
     }, {
       "ingredient": "onion"
@@ -365,9 +363,9 @@ var data = {
     "keyword": [{
       "ingredient": "peanut butter"
     }, {
-      "ingredient": "egg"
+      "ingredient": "eggs"
     }, {
-      "ingredient": "granulated sugar"
+      "ingredient": "sugar"
     }],
     "cookingTime": "27",
     "difficulty": "easy",
@@ -381,13 +379,13 @@ var data = {
     }, {
       "ingredient": "baking powder"
     }, {
-      "ingredient": "white sugar"
+      "ingredient": "sugar"
     }, {
-      "ingredient": "egg"
+      "ingredient": "eggs"
     }, {
       "ingredient": "milk"
     }, {
-      "ingredient": " butter"
+      "ingredient": "butter"
     }, {
       "ingredient": "blueberries"
     }],
@@ -397,7 +395,7 @@ var data = {
   }, {
     "name": "Simple Macaroni and Cheese",
     "keyword": [{
-      "ingredient": "macaroni"
+      "ingredient": "macaroni noodles"
     }, {
       "ingredient": "butter"
     }, {
@@ -411,7 +409,7 @@ var data = {
     }, {
       "ingredient": "butter"
     }, {
-      "ingredient": "Cheddar cheese"
+      "ingredient": "cheddar cheese"
     }],
     "cookingTime": "30",
     "difficulty": "easy",
@@ -475,7 +473,7 @@ var data = {
     }, {
       "ingredient": "tortilla chips"
     }, {
-      "ingredient": "southwest dressing"
+      "ingredient": "southwest salad dressing"
     }, {
       "ingredient": "olive oil"
     }],
@@ -521,7 +519,7 @@ var data = {
       }, {
         "ingredient": "onion"
       }, {
-        "ingredient": "potato"
+        "ingredient": "potatoes"
       }, {
         "ingredient": "salt"
       }, {
@@ -557,7 +555,7 @@ var data = {
       }, {
         "ingredient": "salt"
       }, {
-        "ingredient": "pepper"
+        "ingredient": "black pepper"
       }, {
         "ingredient": "garlic"
       }, {
@@ -577,7 +575,7 @@ var data = {
       }, {
         "ingredient": "flour"
       }, {
-        "ingredient": "Cayenne pepper"
+        "ingredient": "cayenne pepper"
       }, {
         "ingredient": "canola oil"
       }, {
@@ -599,7 +597,7 @@ var data = {
       }, {
         "ingredient": "salt"
       }, {
-        "ingredient": "cayenne"
+        "ingredient": "cayenne pepper"
       }, {
         "ingredient": "cheese"
       }],
@@ -639,7 +637,7 @@ var data = {
       }, {
         "ingredient": "sweet red pepper"
       }, {
-        "ingredient": "egg"
+        "ingredient": "eggs"
       }, {
         "ingredient": "mayonnaise"
       }, {
@@ -671,9 +669,9 @@ var data = {
       }, {
         "ingredient": "salt"
       }, {
-        "ingredient": "pepper"
+        "ingredient": "black pepper"
       }, {
-        "ingredient": "hot dog bun"
+        "ingredient": "hot dog buns"
       }, {
         "ingredient": "butter"
       }],
@@ -743,7 +741,7 @@ var data = {
       }, {
         "ingredient": "milk"
       }, {
-        "ingredient": "egg"
+        "ingredient": "eggs"
       }, {
         "ingredient": "sausage links"
       }, {
@@ -838,9 +836,9 @@ var data = {
   }, {
     "name": "steak au pouvre",
     "keyword": [{
-      "ingredient": "Beef"
+      "ingredient": "beef"
     }, {
-      "ingredient": "Tenderloin"
+      "ingredient": "tenderloin"
     }],
     "cookingTime": "60",
     "difficulty": "easy",
@@ -848,7 +846,7 @@ var data = {
   }, {
     "name": "Puerco Pibil",
     "keyword": [{
-      "ingredient": "Pork"
+      "ingredient": "pork"
     }, {
       "ingredient": "habanero pepper"
     }, {
@@ -928,7 +926,7 @@ var data = {
     "keyword": [{
       "ingredient": "curry"
     }, {
-      "ingredient": "hicken"
+      "ingredient": "chicken"
     }, {
       "ingredient": "tomato"
     }],
@@ -1010,7 +1008,7 @@ var data = {
   } , {
     "name": "Whoopie Pie",
     "keyword": [{
-      "ingredient": "Chocolate"
+      "ingredient": "chocolate"
     }, {
       "ingredient": "marshmallow"
     }],
@@ -1034,7 +1032,7 @@ var data = {
   "keyword": [{
     "ingredient": "sour cream"
   }, {
-    "ingredient": " boneless chicken breast"
+    "ingredient": "boneless chicken breast"
   }, {
     "ingredient": "black pepper"
   }, {
@@ -1066,15 +1064,15 @@ var data = {
 }, {
   "name": "french toast",
   "keyword": [{
-    "ingredient": "white sugar"
+    "ingredient": "sugar"
   }, {
-    "ingredient": "ground cinnamon"
+    "ingredient": "cinnamon"
   }, {
     "ingredient": "french bread"
   }, {
-    "ingredient": "Butter"
+    "ingredient": "butter"
   }, {
-    "ingredient": "egg"
+    "ingredient": "eggs"
   }, {
     "ingredient": "sour-cream"
   }, {
@@ -1086,7 +1084,7 @@ var data = {
 }, {
   "name": "fish taco",
   "keyword": [{
-    "ingredient": "corn starchr"
+    "ingredient": "corn starch"
   }, {
     "ingredient": "salt"
   }, {
@@ -1094,17 +1092,17 @@ var data = {
   }, {
     "ingredient": "baking powder"
   }, {
-    "ingredient": "egg"
+    "ingredient": "eggs"
   }, {
     "ingredient": "beer"
   }, {
-    "ingredient": "mayo"
+    "ingredient": "mayonnaise"
   }, {
-    "ingredient": "jalapeno pepper"
+    "ingredient": "jalapeno peppers"
   }, {
     "ingredient": "cod"
   }, {
-    "ingredients": "cumin, dill weed, cayenne, oil cabbage, tortilla"
+    "ingredients": "cumin"
   }, {
     "ingredient": "dill weed"
   }, {
@@ -1140,13 +1138,13 @@ var data = {
   }, {
     "ingredient": "virgin olive oil"
   }, {
-    "ingredient": "white vinegar"
+    "ingredient": "white wine vinegar"
   }, {
     "ingredient": "molasses"
   }, {
     "ingredient": "mustard powder"
   }, {
-    "ingredients": "ginger, garlic powder, onion powder, flank steak, wooden skewers"
+    "ingredients": "ginger"
   }, {
     "ingredient": "garlic powder"
   }, {
@@ -1166,7 +1164,7 @@ var data = {
   }, {
     "ingredient": "onion powder"
   }, {
-    "ingredient": "margarin"
+    "ingredient": "margarine"
   }, {
     "ingredient": "celery"
   }, {
@@ -1179,6 +1177,10 @@ var data = {
   "name": "garlic kale",
   "keyword": [{
     "ingredient": "virgin olive oil"
+  }, {
+    "ingredient": "olive oil"
+  }, {
+    "ingredient": "garlic"
   }],
   "cookingTime": "60",
   "difficulty": "easy",
@@ -1213,7 +1215,7 @@ var data = {
 
   "name": "glazed carrots",
   "keyword": [{
-    "ingredient": "Carrots"
+    "ingredient": "carrots"
   }, {
     "ingredient": "butter"
   }, {
@@ -1252,7 +1254,7 @@ var data = {
       }, {
         "ingredient": "garlic"
       }, {
-        "ingredient": " salt"
+        "ingredient": "salt"
       }, {
         "ingredient": "black pepper"
       }, {
@@ -1270,9 +1272,9 @@ var data = {
       }, {
         "ingredient": "eggs"
       }, {
-        "ingredient": " white pepper"
+        "ingredient": "white pepper"
       }, {
-        "ingredient": "Worcestershire sauce"
+        "ingredient": "worcestershire sauce"
       }, {
         "ingredient": "butter"
       }, {
@@ -1291,7 +1293,7 @@ var data = {
       }, {
         "ingredient": "brown sugar"
       }, {
-        "ingredient": " apple or hickory wood chips"
+        "ingredient": "apple or hickory wood chips"
       }],
       "cookingTime": "6d6h10m",
       "difficulty": "easy",
@@ -1312,11 +1314,11 @@ var data = {
       }, {
         "ingredient": "lemon juice"
       }, {
-        "ingredient": "green onion"
+        "ingredient": "scallions"
       }],
       "cookingTime": "35",
       "difficulty": "easy",
-      "details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.Season both sides of cod with Cajun seasoning,lemon pepper,salt,and black pepper.Set fish aside on a plate.Heat butter in a small saucepan over medium heat,stir in lemon juice and green onion,and cook until onion is softened,about 3 minutes.Place cod onto oiled grates and grill until fish is browned and flakes easily,about 3 minutes per side;baste with butter mixture frequentlywhile grilling.Allow cod to rest off the heatfor about 5 minutes before serving."
+      "details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.Season both sides of cod with Cajun seasoning,lemon pepper,salt,and black pepper.Set fish aside on a plate.Heat butter in a small saucepan over medium heat,stir in lemon juice and scallions,and cook until onion is softened,about 3 minutes.Place cod onto oiled grates and grill until fish is browned and flakes easily,about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heatfor about 5 minutes before serving."
 
     }, {
       "name": "hashbrowns",
@@ -1325,7 +1327,7 @@ var data = {
       }, {
         "ingredient": "potatoes"
       }, {
-        "ingredient": " salt"
+        "ingredient": "salt"
       }, {
         "ingredient": "black pepper"
       }],
@@ -1340,9 +1342,9 @@ var data = {
       }, {
         "ingredient": "bacon"
       }, {
-        "ingredient": "shallot"
+        "ingredient": "shallots"
       }, {
-        "ingredient": "pepper"
+        "ingredient": "black pepper"
       }, {
         "ingredient": "flour"
       }],
@@ -1375,23 +1377,23 @@ var data = {
       }],
       "cookingTime": "35",
       "difficulty": "easy",
-      "details": "In a medium saucepan, boil water and stir in wild rice. Reduce heat. Cover, and simmer 45 minutes, until water has been absorbed and rice is tender.Preheat oven to 350 degrees F(175 degrees C).Melt butter in a large,heavy skillet over medium heat.Stir in sausage,onions,and celery.Cook until sausage is evenly browned,10 to 12 minutes.Drain,and stir in mushrooms,thyme,and rosemary.Continue cooking about 2 minutes,until mushrooms are lightly browned.Remove from heat,and season with salt and pepper.In a large bowl,mix the sausage mixture with the cooked rice,whole wheat bread,apples,and raisins.Gradually blend in chicken broth until mixture is moistened.Transfer mixture to a large baking dish.Bake 30 minutes in the preheated oven,until lightly browned."
+      "details": "In a medium saucepan, boil water and stir in wild rice. Reduce heat. Cover, and simmer 45 minutes, until water has been absorbed and rice is tender. Preheat oven to 350 degrees F(175 degrees C).Melt butter in a large,heavy skillet over medium heat.Stir in sausage,onions,and celery.Cook until sausage is evenly browned,10 to 12 minutes.Drain,and stir in mushrooms,thyme,and rosemary.Continue cooking about 2 minutes,until mushrooms are lightly browned.Remove from heat,and season with salt and pepper.In a large bowl,mix the sausage mixture with the cooked rice,whole wheat bread,apples,and raisins.Gradually blend in chicken broth until mixture is moistened.Transfer mixture to a large baking dish.Bake 30 minutes in the preheated oven,until lightly browned."
 
 
     }, {
       "name": "tangy brocolli",
       "keyword": [{
-        "ingredient": "virgin olive oil, cajun, cod, salt, black pepper, butter , lemon juice, green onion"
+        "ingredient": "virgin olive oil"
       }, {
         "ingredient": "brocolli"
       }, {
         "ingredient": "dijon mustard"
       }, {
-        "ingredient": "cheese food"
+        "ingredient": "cheese"
       }],
       "cookingTime": "20",
       "difficulty": "easy",
-      "details": "Steam broccoli until tender-crisp.Toss broccoli with mustard,then melt the cheese over the broccoli in a microwavefor 1 minute on HIGH.Stir and serve."
+      "details": "Steam broccoli until tender-crisp. Toss broccoli with mustard, then melt the cheese over the broccoli in a microwavefor 1 minute on HIGH. Stir and serve."
 
 
     }]
