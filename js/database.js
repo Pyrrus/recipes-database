@@ -65,7 +65,7 @@ var data = {
     }],
     "cookingTime": "180",
     "difficulty": "easy",
-    "details": "1: Put the ham in the slow cooker. 2: add can of 7-up and set the setting at high. 3: Wait tell the ham is cook."
+    "details": "1: Put the ham in the slow cooker. 2: add can of 7-up and set the setting at high. 3: Wait tell the ham is cooked."
   },{
     "name": "Lime and Pepper Shrimp",
     "keyword": [{
@@ -773,7 +773,7 @@ var data = {
       "difficulty": "easy",
       "details": "Grate 4 large potatoes into a large bowl mix in 1 egg, 1 tsp. salt and black pepper to taste. Add 2-4 tablespoons to thicken. Heat oven to 200 degrees. Heat a quarter inch of vegetable oil in a skillet on medium-high heat drop two or three 1/4 cup mounds into hot oil and flatten to make 1/2 inch thick pancakes. Fry until golden brown and then flip. Keep warm in oven as they come out of the oil."
   }, {
-    "name": "Garlic butter Shrimp",
+    "name": "Garlic Butter Shrimp",
       "keyword": [{
         "ingredient": "noodles"
       }, {
@@ -825,20 +825,54 @@ var data = {
     "keyword": [{
       "ingredient": "sausage"
     }, {
-      "ingredient": "beef"
+      "ingredient": "ground beef"
     }, {
-      "ingredient": "tomato"
+      "ingredient": "pancetta"
+    }, {
+      "ingredient": "bacon"
+    }, {
+      "ingredient": "yellow onion"
+    }, {
+      "ingredient": "celery"
+    }, {
+      "ingredient": "carrot"
+    }, {
+      "ingredient": "garlic"
+    }, {
+      "ingredient": "tomato paste"
+    }, {
+      "ingredient": "red wine"
+    }, {
+      "ingredient": "whole milk"
+    }, {
+      "ingredient": "San Marzano tomatoes"
+    }, {
+      "ingredient": "bay leaves"
+    }, {
+      "ingredient": "Parmigiano-Reggiano cheese"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "pepper"
     }
     ],
     "cookingTime": "240",
     "difficulty": "medium",
     "details": "Combine 1 lb of ground beef, 1 lb of ground sausage, salt, and pepper into a pan on medium heat. Cook until brown, typically 12-15 minutes. Let meat drain in separate bowl. Add 4-6 oz of pancetta or bacon to pan and fry until crisp. Transfer crispy meat to towel lined plate to cool and drain. Heat 1 tbsp of reserved fat and add 1 yellow onion, 1 celery stalk, and 2 carrots each finely diced. Sautee until translucent and add 5 cloves of garlic, minced. Stir and let cook for 1 minute and then add 1/3 cup tomato paste. Cook for 2 minutes and add 1 cup of red wine. Cook until wine is almost evaporated, about 5 minutes. Add 1 cup of whole milk, 2 cans of crushed San Marzano tomatoes, 2 bay leaves, and 1 rind of Parmigiano-Reggiano cheese. Add salt and pepper to taste and let simmer for 3 1/2 hours. Serve with any medium to large size pasta"
   }, {
-    "name": "steak au pouvre",
+    "name": "Steak Au Pouvre",
     "keyword": [{
-      "ingredient": "beef"
+      "ingredient": "beef tenderloin"
     }, {
-      "ingredient": "tenderloin"
+      "ingredient": "black peppercorns"
+    }, {
+      "ingredient": "butter"
+    }, {
+      "ingredient": "cognac"
+    }, {
+      "ingredient": "cream"
+    }, {
+      "ingredient": "salt"
     }],
     "cookingTime": "60",
     "difficulty": "easy",
@@ -846,11 +880,33 @@ var data = {
   }, {
     "name": "Puerco Pibil",
     "keyword": [{
-      "ingredient": "pork"
+      "ingredient": "pork shoulder"
     }, {
-      "ingredient": "habanero pepper"
+      "ingredient": "annato seeds"
+    }, {
+      "ingredient": "cumin seed"
+    }, {
+      "ingredient": "black peppercorns"
+    }, {
+      "ingredient": "whole cloves"
+    }, {
+      "ingredient": "whole allspice"
+    }, {
+      "ingredient": "habanero peppers"
+    }, {
+      "ingredient": "orange juice"
+    }, {
+      "ingredient": "vinegar"
+    }, {
+      "ingredient": "garlic"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "lemon"
     }, {
       "ingredient": "tequila"
+    }, {
+      "ingredient": "banana leaves"
     }],
     "cookingTime": "240",
     "difficulty": "easy",
@@ -860,27 +916,79 @@ var data = {
     "keyword": [{
       "ingredient": "chicken"
     }, {
-      "ingredient": "rice"
+      "ingredient": "vegetable oil"
+    }, {
+      "ingredient": "red peppers"
+    }, {
+      "ingredient": "green peppers"
+    }, {
+      "ingredient": "pineapple chunks"
+    }, {
+      "ingredient": "brown sugar"
+    }, {
+      "ingredient": "vinegar"
+    }, {
+      "ingredient": "chicken stock"
+    }, {
+      "ingredient": "cornstarch"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "pepper"
     }],
     "cookingTime": "240",
     "difficulty": "medium",
-    "details": "In a large non-stick skillet, heat 2 tbsp oil over medium high heat. Season chicken strips with salt and pepper then add to pan. Brown chicken and remove to plate. Add red and green peppers and cook for 1 minute. Stir in 1 cup pineapple chunks, 1/2 cup pineapple juice, 3 tbsp brown sugar, 3 tbsp vinegar and 1/4 cup chicken stock and bring to a simmer. Simmer until sauce begins to reduce. Stir in cornstarch mixture, 4 tsp cornstarch with 4 tsp water, and bring liquid to a simmer. Stir in chicken strips and cook for 5 minutes. Serve over rice."
+    "details": "In a large non-stick skillet, heat 2 tbsp vegetable oil over medium high heat. Season chicken strips with salt and pepper then add to pan. Brown chicken and remove to plate. Add red and green peppers and cook for 1 minute. Stir in 1 cup pineapple chunks, 1/2 cup pineapple juice, 3 tbsp brown sugar, 3 tbsp vinegar and 1/4 cup chicken stock and bring to a simmer. Simmer until sauce begins to reduce. Stir in cornstarch mixture, 4 tsp cornstarch with 4 tsp water, and bring liquid to a simmer. Stir in chicken strips and cook for 5 minutes. Serve over rice."
   }, {
     "name": "Eastern Carolina BBQ",
     "keyword": [{
-      "ingredient": "pork"
+      "ingredient": "pork shoulder"
     }, {
-      "ingredient": "vinegar"
+      "ingredient": "brown sugar"
+    }, {
+      "ingredient": "paprika"
+    }, {
+      "ingredient": "garlic powder"
+    }, {
+      "ingredient": "onion powder"
+    }, {
+      "ingredient": "cayenne"
+    }, {
+      "ingredient": "apple cider vinegar"
+    }, {
+      "ingredient": "red pepper flakes"
+    }, {
+      "ingredient": "black pepper"
+    }, {
+      "ingredient": "salt"
     }],
     "cookingTime": "600",
     "difficulty": "easy",
-    "details": "Clean and pat dry pork picnic shoulder. In a large bown mix 1 cup brown sugar with, 1 tbsp paprika, 2 tsp garlic powder, 2 tsp onion powder, 2 tsp black pepper, 3 tbsp salt, and 1 tsp of cayenne. Coat pork shoulder with spice mixture and let site for 2 hour. place pork shoulder in crock pot and let cook as low and as long as possible. While pork is cooking add 2 cups of apple cider vinegar, 1 tbsp black pepper, 2 tsp red pepper flakes, 2 tsp salt, and 1 tsp of brown sugar. When pork is done cooking remove and bones and shred pork with forks or claws. Add vinegar mixture to shredded pork and let site for 30 minutes. Serve on hamburger buns with hot sauce and slaw."
+    "details": "Clean and pat dry pork shoulder. In a large bown mix 1 cup brown sugar with, 1 tbsp paprika, 2 tsp garlic powder, 2 tsp onion powder, 2 tsp black pepper, 3 tbsp salt, and 1 tsp of cayenne. Coat pork shoulder with spice mixture and let sit for 2 hours. Place pork shoulder in crock pot and let cook as low and as long as possible. While pork is cooking add 2 cups of apple cider vinegar, 1 tbsp black pepper, 2 tsp red pepper flakes, 2 tsp salt, and 1 tsp of brown sugar. When pork is done cooking remove and bones and shred pork with forks or claws. Add vinegar mixture to shredded pork and let site for 30 minutes. Serve on hamburger buns with hot sauce and slaw."
   }, {
     "name": "Beef Lo Mein",
     "keyword": [{
       "ingredient": "beef"
     }, {
-      "ingredient": "pasta"
+      "ingredient": "soba noodles"
+    }, {
+      "ingredient": "sesame oil"
+    }, {
+      "ingredient": "ginger"
+    }, {
+      "ingredient": "garlic"
+    }, {
+      "ingredient": "scallions"
+    }, {
+      "ingredient": "snap peas"
+    }, {
+      "ingredient": "carrot"
+    }, {
+      "ingredient": "beef broth"
+    }, {
+      "ingredient": "soy sauce"
+    }, {
+      "ingredient": "ciilantro"
     }],
     "cookingTime": "30",
     "difficulty": "easy",
@@ -888,25 +996,47 @@ var data = {
   }, {
     "name": "Chanko Nabe",
     "keyword": [{
-      "ingredient": "pork"
+      "ingredient": "ground pork"
     }, {
       "ingredient": "chicken"
     }, {
-      "ingredient": "rice"
+      "ingredient": "chicken stock"
     }, {
       "ingredient": "cabbage"
+    }, {
+      "ingredient": "garlic ginger paste"
+    }, {
+      "ingredient": "soy sauce"
+    }, {
+      "ingredient": "rice wine vinegar"
+    }, {
+      "ingredient": "onion"
+    }, {
+      "ingredient": "carrot"
+    }, {
+      "ingredient": "mushrooms"
+    }, {
+      "ingredient": "rice"
     }],
     "cookingTime": "60",
     "difficulty": "easy",
     "details": "Add 4 cups of chicken stock and 4 cups of water to a stock pot. Add 1 tbsp of garlic ginger paste, 1 tbsp of soy sauce, and 2 tbsp rice wine vinegar. Bring pot to medium heat. Add in 1 lb of ground pork separated in 1 inch balls. Add 2 lbs of chicken, light or dark. Add one sliced onion, 1 chopped carrot, 1 lb chopped cabbage, and 8 oz of sliced mushrooms. Optionally add seafood like shrimp or fish. Let soup simmer for 30 mins or until chicken is fully cooked. Serve with rice."
   }, {
-    "name": "spam musibi",
+    "name": "Spam Musibi",
     "keyword": [{
-      "ingredient": "pork"
-    }, {
       "ingredient": "spam"
     }, {
+      "ingredient": "rice vinegar"
+    }, {
       "ingredient": "rice"
+    }, {
+      "ingredient": "soy sauce"
+    }, {
+      "ingredient": "oyster sauce"
+    }, {
+      "ingredient": "sugar"
+    }, {
+      "ingredient": "nori"
     }],
     "cookingTime": "90",
     "difficulty": "medium",
@@ -914,9 +1044,21 @@ var data = {
   }, {
     "name": "Cornbread",
     "keyword": [{
-      "ingredient": "bread"
+      "ingredient": "butter"
     }, {
       "ingredient": "cornmeal"
+    }, {
+      "ingredient": "sugar"
+    }, {
+      "ingredient": "eggs"
+    }, {
+      "ingredient": "buttermilk"
+    }, {
+      "ingredient": "baking soda"
+    }, {
+      "ingredient": "flour"
+    }, {
+      "ingredient": "salt"
     }],
     "cookingTime": "45",
     "difficulty": "easy",
@@ -924,11 +1066,39 @@ var data = {
   }, {
     "name": "Madras Curry Chicken",
     "keyword": [{
-      "ingredient": "curry"
+      "ingredient": "ghee"
+    }, {
+      "ingredient": "chillies"
+    }, {
+      "ingredient": "cardamoms"
+    }, {
+      "ingredient": "garlic ginger paster"
+    }, {
+      "ingredient": "tomato paste"
+    }, {
+      "ingredient": "chilli peppers"
+    }, {
+      "ingredient": "cumin"
+    }, {
+      "ingredient": "coriander"
+    }, {
+      "ingredient": "chilli powder"
+    }, {
+      "ingredient": "curry powder"
+    }, {
+      "ingredient": "turmeric"
+    }, {
+      "ingredient": "mango chutney"
     }, {
       "ingredient": "chicken"
     }, {
-      "ingredient": "tomato"
+      "ingredient": "chicken broth"
+    }, {
+      "ingredient": "garam masala"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "pepper"
     }],
     "cookingTime": "45",
     "difficulty": "medium",
@@ -936,35 +1106,81 @@ var data = {
   }, {
     "name": "Potstickers",
     "keyword": [{
-      "ingredient": "pork"
+      "ingredient": "ground pork"
     }, {
-      "ingredient": "wonton"
+      "ingredient": "wonton wraps"
+    }, {
+      "ingredient": "scallions"
+    }, {
+      "ingredient": "red bell pepper"
+    }, {
+      "ingredient": "egg"
+    }, {
+      "ingredient": "ketchup"
+    }, {
+      "ingredient": "yellow mustard"
+    }, {
+      "ingredient": "Worcestershire"
+    }, {
+      "ingredient": "brown sugar"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "pepper"
+    }, {
+      "ingredient": "cayenne"
+    }, {
+      "ingredient": "vegetable oil"
+    }, {
+      "ingredient": "chicken broth"
     }],
     "cookingTime": "60",
     "difficulty": "medium",
     "details": "Combine 1/2 pound ground pork, 1/4 cup finely chopped scallions, 2 tablespoons finely chopped red bell pepper, 1 egg, lightly beaten, 2 teaspoons ketchup, 1 teaspoon yellow mustard, 2 teaspoons Worcestershire sauce, 1 teaspoon light brown sugar, 1 1/2 teaspoons kosher salt, 1/2 teaspoon freshly ground black pepper, 1/4 teaspoon cayenne pepper. To form the dumplings, remove 1 wonton wrapper from the package, covering the others with a damp cloth. Brush 2 of the edges of the wrapper lightly with water. Place 1/2 rounded teaspoon of the pork mixture in the center of the wrapper. Fold over, seal edges, and shape as desired. Set on a sheet pan and cover with a damp cloth. Repeat procedure until all of the filling is gone. Heat a 12-inch saute pan over medium heat. Brush with vegetable oil once hot. Add 8 to 10 potstickers at a time to the pan and cook for 2 minutes, without touching. Once the 2 minutes are up, gently add 1/3 cup chicken stock to the pan, turn the heat down to low, cover, and cook for another 2 minutes. Remove wontons to a heatproof platter and place in the warm oven. Clean the pan in between batches by pouring in water and allowing the pan to deglaze. Repeat until all the wontons are cooked. Serve immediately."
   }, {
-    "name": "barbacoa",
+    "name": "Barbacoa",
     "keyword": [{
-      "ingredient": "beef"
-    }, {
       "ingredient": "beef cheek"
+    }, {
+      "ingredient": "olive oil"
+    }, {
+      "ingredient": "cumin"
+    }, {
+      "ingredient": "onion"
+    }, {
+      "ingredient": "garlic"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "pepper"
     }],
     "cookingTime": "600",
     "difficulty": "easy",
     "details": "Coat beef cheek meat with olive oil. Rub salt, cumin, and pepper into meat. Wrap meat in aluminum foil and refrigerate, 4 hours to overnight. Pour water into a slow cooker. Arrange onion and garlic around beef cheek meat in the aluminum foil. Wrap foil tightly around meat and vegetables. Add a second sheet of aluminum foil around meat mixture, sealing tightly; place in the slow cooker. Cook on Low, adding more water if it has evaporated, until meat is very tender, 7 to 8 hours. Remove foil packet from slow cooker and shred meat using 2 forks."
   }, {
-    "name": "picadillo",
+    "name": "Picadillo",
     "keyword": [{
-      "ingredient": "beef"
+      "ingredient": "ground beef"
     }, {
       "ingredient": "potato"
     }, {
       "ingredient": "tortilla"
+    }, {
+      "ingredient": "olive oil"
+    }, {
+      "ingredient": "garlic"
+    }, {
+      "ingredient": "onion"
+    }, {
+      "ingredient": "green pepper"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "pepper"
     }],
     "cookingTime": "60",
     "difficulty": "easy",
-    "details": "In a large stock pot, heat 1 tablespoon of olive oil over medium heat. Saute garlic, onion and green pepper until onions are transparent. Transfer onion mixture to a bowl and set aside. In the same pot, heat the remaining olive oil and brown the ground beef. In a separate saucepan, combine the olives, capers, vinegar, salt, pepper, cinnamon, cloves, bay leaves and hot sauce. Let simmer over medium heat for 10 minutes. Place the olive mixture and the onion mixture into the pot with the ground beef. Add the half drained tomatoes and cook for 1 hour over medium heat; stirring occasionally."
+    "details": "In a large stock pot, heat 1 tablespoon of olive oil over medium heat. Saute garlic, onion and green pepper until onions are transparent. Transfer onion mixture to a bowl and set aside. In the same pot, heat the remaining olive oil and brown the ground beef. Place the onion mixture into the pot with the ground beef. Add the half drained tomatoes and cook for 1 hour over medium heat; stirring occasionally. Spoon mixture into tortilas."
   }, {
     "name": "Fresh Egg Noodles",
     "keyword": [{
@@ -981,6 +1197,22 @@ var data = {
       "ingredient": "pasta"
     }, {
       "ingredient": "shrimp"
+    }, {
+      "ingredient": "olive oil"
+    }, {
+      "ingredient": "butter"
+    }, {
+      "ingredient": "shrimp"
+    }, {
+      "ingredient": "cream"
+    }, {
+      "ingredient": "nutmeg"
+    }, {
+      "ingredient": "Parmigiano-Reggiano cheese"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "pepper"
     }],
     "cookingTime": "25",
     "difficulty": "easy",
@@ -991,16 +1223,30 @@ var data = {
       "ingredient": "chicken"
     }, {
       "ingredient": "beer"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "pepper"
     }],
     "cookingTime": "75",
     "difficulty": "easy",
-    "details": "Remove neck and giblets from chicken and discard. Rinse chicken inside and out, and pat dry with paper towels. Rub chicken lightly with oil then rub inside and out with salt, pepper and dry rub. Set aside. Open beer can and take several gulps (make them big gulps so that the can is half full). Place beer can on a solid surface. Grabbing a chicken leg in each hand, plunk the bird cavity over the beer can. Transfer the bird-on-a-can to your grill and place in the center of the grate, balancing the bird on its 2 legs and the can like a tripod. Cook the chicken over medium-high, indirect heat (i.e. no coals or burners on directly under the bird), with the grill cover on, for approximately 1 1/4 hours or until the internal temperature registers 165 degrees F in the breast area and 180 degrees F in the thigh, or until the thigh juice runs clear when stabbed with a sharp knife. Remove from grill and let rest for 10 minutes before carving."
+    "details": "Remove neck and giblets from chicken and discard. Rinse chicken inside and out, and pat dry with paper towels. Rub chicken lightly with oil then rub inside and out with salt and pepper. Set aside. Open beer can and take several gulps (make them big gulps so that the can is half full). Place beer can on a solid surface. Grabbing a chicken leg in each hand, plunk the bird cavity over the beer can. Transfer the bird-on-a-can to your grill and place in the center of the grate, balancing the bird on its 2 legs and the can like a tripod. Cook the chicken over medium-high, indirect heat (i.e. no coals or burners on directly under the bird), with the grill cover on, for approximately 1 1/4 hours or until the internal temperature registers 165 degrees F in the breast area and 180 degrees F in the thigh, or until the thigh juice runs clear when stabbed with a sharp knife. Remove from grill and let rest for 10 minutes before carving."
   }, {
     "name": "Biscuits and Gravy",
     "keyword": [{
-      "ingredient": "bread"
+      "ingredient": "flour"
+    }, {
+      "ingredient": "sugar"
+    }, {
+      "ingredient": "baking powder"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "milk"
     }, {
       "ingredient": "sausage"
+    }, {
+      "ingredient": "pepper"
     }],
     "cookingTime": "45",
     "difficulty": "medium",
@@ -1008,7 +1254,25 @@ var data = {
   } , {
     "name": "Whoopie Pie",
     "keyword": [{
-      "ingredient": "chocolate"
+      "ingredient": "unsweet chocolate"
+    }, {
+      "ingredient": "semisweet chocolate"
+    }, {
+      "ingredient": "butter"
+    }, {
+      "ingredient": "sugar"
+    }, {
+      "ingredient": "eggs"
+    }, {
+      "ingredient": "vanilla"
+    }, {
+      "ingredient": "flour"
+    }, {
+      "ingredient": "cocoa"
+    }, {
+      "ingredient": "baking powder"
+    }, {
+      "ingredient": "salt"
     }, {
       "ingredient": "marshmallow"
     }],
@@ -1023,12 +1287,18 @@ var data = {
       "ingredient": "onion"
     }, {
       "ingredient": "cilantro"
+    }, {
+      "ingredient": "jalapeno"
+    }, {
+      "ingredient": "lime"
+    }, {
+      "ingredient": "salt"
     }],
     "cookingTime": "15",
     "difficulty": "easy",
     "details": "Dice up equal quantities of onion and tomato. Roughly chop the cilantro. Now, slice 1 or 2 jalapenos in half. With a spoon, scrape out the seeds. (If you like things spicy, leave in some of the white membranes.) Dice the jalapenos very finely; you want a hint of heat and jalapeno flavor, but you don't want to cause any fires. Now dump the four ingredients into a bowl. Slice the lime in half and squeeze the juice from half a lime the bowl. Sprinkle with salt, and stir together until combined. Be sure to taste the pico de gallo and adjust the seasonings, adding salt or more diced jalapeno if needed."
   }, {
-  "name": "bakedChicken",
+  "name": "Baked Chicken",
   "keyword": [{
     "ingredient": "sour cream"
   }, {
@@ -1046,7 +1316,7 @@ var data = {
   "difficulty": "easy",
   "details": "Preheat an oven to 400 degrees F (200 degrees C). Butter a baking dish. Whisk the sour cream, Dijon mustard, garlic, and pepper together in a large bowl.Add the chicken and turn to assure the breasts are well coated.Refrigerate 20 to 30 minutes. Combine the cornflakes and onion soup mix in a bowl.Gently press the chicken breasts into the cornflakes mixture to coat and shake off any excess.Lie the coated breasts in the buttered baking dish.Drizzle the melted butter over the chicken.Bake in the preheated oven until the chicken is golden brown,20 to 25 minutes.An instant - read thermometer inserted into the center should read at least 165 degrees F "
 }, {
-  "name": "pancakes",
+  "name": "Pancakes",
   "keyword": [{
     "ingredient": "white sugar"
   }, {
@@ -1062,7 +1332,7 @@ var data = {
   "difficulty": "easy",
   "details": "Combine milk with vinegar in a medium bowl and set aside for 5 minutes to 10 minutessour .Combine flour,sugar,baking powder,baking soda,and salt in a large mixing bowl.Whisk egg and butter into soured milk.Pour the flour mixture into the wet ingredients and whisk until lumps are gone.Heat a large skillet over medium heat,and coat with cooking spray.Pour 1 / 4 cupfuls of batter onto the skillet,and cook until bubbles appear on the surface.Flip with a spatula,and cook until browned on the other side."
 }, {
-  "name": "french toast",
+  "name": "French Toast",
   "keyword": [{
     "ingredient": "sugar"
   }, {
@@ -1082,7 +1352,7 @@ var data = {
   "difficulty": "easy",
   "details": "In a medium bowl, whisk together the eggs, milk, 2 tablespoons of sugar, and cinnamon. Melt one tablespoon of butter in a large skillet over medium heat. Dip a few bread slices into the egg mixture just to coat. Place in the hot skillet, and cook until golden on each side, about 4 minutes per side. Repeat with remaining slices of bread. Melt 1 tablespoon of butter in the skillet before frying each batch of toast.While the toast is cooking,mix cream cheese,2 tablespoons of sugar,sour cream,and whipped topping using an electric mixer or blender until smooth,yet firm.Place servings of warm French toast onto plates,and top with a generous dollop of the frosting."
 }, {
-  "name": "fish taco",
+  "name": "Fish Taco",
   "keyword": [{
     "ingredient": "corn starch"
   }, {
@@ -1116,7 +1386,7 @@ var data = {
   "difficulty": "easy",
   "details": "o make beer batter: In a large bowl, combine flour, cornstarch, baking powder, and salt. Blend egg and beer, then quickly stir into the flour mixture (don't worry about a few lumps).To make white sauce: In a medium bowl,mix together yogurt and mayonnaise.Gradually stir in fresh lime juice until consistency is slightly runny.Season with jalapeno,capers,oregano,cumin,dill,and cayenne.Heat oil in deep - fryer to 375 degrees F(190 degrees C).Dust fish pieces lightly with flour.Dip into beer batter,and fry until crisp and golden brown.Drain on paper towels.Lightly fry tortillas;not too crisp.To serve,place fried fish in a tortilla,and top with shredded cabbage,and white sauce."
 }, {
-  "name": "baked fish",
+  "name": "Baked Fish",
   "keyword": [{
     "ingredient": "garlic powder"
   }, {
@@ -1132,7 +1402,7 @@ var data = {
   "difficulty": "easy",
   "details": "Preheat oven to 350 degrees F (175 degrees C).Place fish in a baking dish and drizzle melted butter over fish;season with garlic powder,garlic pepper seasoning,and salt.Top fish with lemon slices and capers.Bake in the preheated oven until fish flakes easily with a fork,15 to 20 minutes."
 }, {
-  "name": "steak on a stick",
+  "name": "Steak on a Stick",
   "keyword": [{
     "ingredient": "soy sauce"
   }, {
@@ -1158,7 +1428,7 @@ var data = {
   "difficulty": "easy",
   "details": "In a large resealable bag, combine the soy sauce, olive oil, water, molasses, mustard powder, ginger, garlic powder and onion powder. Seal and shake the bag to mix together. Add steak strips to the bag and seal. Refrigerate for at least 8 hours to marinate.Preheat the oven 's broiler. Thread meat onto skewers and place on a broiling rack.Broil the steakfor 3 to 4 minutes on each side.Arrange on a platter to serve."
 }, {
-  "name": "roasted chicken",
+  "name": "Roasted Chicken",
   "keyword": [{
     "ingredient": "whole chicken"
   }, {
@@ -1174,7 +1444,7 @@ var data = {
   "difficulty": "easy",
   "details": "Preheat oven to 350 degrees F (175 degrees C).Place chicken in a roasting pan,and season generously inside and out with salt and pepper.Sprinkle inside and out with onion powder.Place 3 tablespoons margarine in the chicken cavity.Arrange dollops of the remaining margarine around the chicken 's exterior. Cut the celery into 3 or 4 pieces, and place in the chicken cavity.Bake uncovered 1 hour and 15 minutes in the preheated oven,to a minimum internal temperature of 180 degrees F(82 degrees C).Remove from heat,and baste with melted margarine and drippings.Cover with aluminum foil,and allow to rest about 30 minutes before serving."
 }, {
-  "name": "garlic kale",
+  "name": "Garlic Kale",
   "keyword": [{
     "ingredient": "virgin olive oil"
   }, {
@@ -1186,7 +1456,7 @@ var data = {
   "difficulty": "easy",
   "details": "Soak kale leaves in a large bowl of water until dirt and sand begin to fall to the bottom, about 2 minutes. Lift kale from the bowl without drying the leaves and immediately remove and discard stems. Chop the kale leaves into 1-inch pieces.Heat olive oil in a large skillet over medium heat;cook and stir garlic until sizzling,about 1 minute.Add kale to the skillet and place a cover over the top.Cook,stirring occasionally with tongs,until kale is bright green and slightly tender,5 to 7 minutes."
 }, {
-  "name": "garlic green beans",
+  "name": "Garlic Green Beans",
   "keyword": [{
     "ingredient": "butter"
   }, {
@@ -1200,7 +1470,7 @@ var data = {
   "difficulty": "easy",
   "details": "Melt butter in a skillet over medium heat; cook and stir green beans and garlic until beans begin to thaw. Season with salt and continue cooking and stirring until beans are lightly browned, 10 to 15 minutes."
 }, {
-  "name": "grilled asparagus",
+  "name": "Grilled Asparagus",
   "keyword": [{
     "ingredient": "olive oil"
   }, {
@@ -1213,7 +1483,7 @@ var data = {
   "details": "Preheat grill for high heat.Lightly coat the asparagus spears with olive oil.Season with salt and pepper to taste.Grill over high heatfor 2 to 3 minutes,or to desired tenderness."
 }, {
 
-  "name": "glazed carrots",
+  "name": "Glazed Carrots",
   "keyword": [{
     "ingredient": "carrots"
   }, {
@@ -1230,7 +1500,7 @@ var data = {
   "details": "Place carrots into a large saucepan, pour in enough water to reach depth of 1 inch, and bring to a boil. Reduce heat to low, cover, and simmer carrots until tender, 8 to 10 minutes. Drain and transfer to a bowl.Melt butter in the same saucepan;stir brown sugar,salt,and white pepper into butter until brown sugar and salt have dissolved.Transfer carrots into brown sugar sauce;cook and stir until carrots are glazed with sauce,about 5 more minutes."
 }, {
 
-      "name": "Roasted balsamic cauliflower",
+      "name": "Roasted Balsamic Cauliflower",
       "keyword": [{
         "ingredient": "virgin olive oil"
       }, {
@@ -1248,7 +1518,7 @@ var data = {
 
     }, {
 
-      "name": "pork chops",
+      "name": "Pork Chops",
       "keyword": [{
         "ingredient": "virgin olive oil"
       }, {
@@ -1266,7 +1536,7 @@ var data = {
 
     }, {
 
-      "name": "eggs benedict",
+      "name": "Eggs Benedict",
       "keyword": [{
         "ingredient": "virgin olive oil"
       }, {
@@ -1287,7 +1557,7 @@ var data = {
       "details": "To Make Hollandaise: Fill the bottom of a double boiler part-way with water. Make sure that water does not touch the top pan. Bring water to a gentle simmer. In the top of the double boiler, whisk together egg yolks, lemon juice, white pepper, Worcestershire sauce, and 1 tablespoon water.Add the melted butter to egg yolk mixture 1 or 2 tablespoons at a timewhile whisking yolks constantly.If hollandaise begins toget too thick,add a teaspoon or two of hot water.Continue whisking until all butter is incorporated.Whisk in salt,then remove from heat.Place a lid on pan to keep sauce warm.Preheat oven on broiler setting.To Poach Eggs: Fill a large saucepan with 3 inches of water.Bring water to a gentle simmer,then add vinegar.Carefullybreak eggs into simmering water,and allow to cookfor 2 1 / 2 to 3 minutes.Yolks should still be soft in center.Remove eggs from water with a slotted spoon andset on a warm plateWhile eggs are poaching,brown the bacon in a medium skillet over medium - high heat and toast the English muffins on a baking sheet under the broiler.Spread toasted muffins with softened butter,and top each one with a slice of bacon,followed by one poached egg.Place 2 muffins on each plate and drizzle with hollandaise sauce.Sprinkle with chopped chives and serve immediately."
     }, {
 
-      "name": "bacon",
+      "name": "Bacon",
       "keyword": [{
         "ingredient": "raw pork belly"
       }, {
@@ -1300,7 +1570,7 @@ var data = {
       "details": "n a 2 gallon container, mix together the brown sugar, curing mixture, and water. Submerge the pork belly in the mixture so that it is covered completely. If the meat floats, you can weigh it down with a dinner plate or similar object. Refrigerate covered for six days.Light charcoal in an outdoor smoker.Soak wood chips in a bowl of water.When the temperature of the smoker is between 140 and 150 degrees coals are ready.Smoke the pork bellyfor 6 hours,throwing a handful of wood chips on the coals about once an hour.Store in the refrigerator.Slice and fry as you would with store - bought bacon."
     }, {
 
-      "name": "grilled cod",
+      "name": "Grilled Cod",
       "keyword": [{
         "ingredient": "virgin olive oil"
       }, {
@@ -1321,7 +1591,7 @@ var data = {
       "details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.Season both sides of cod with Cajun seasoning,lemon pepper,salt,and black pepper.Set fish aside on a plate.Heat butter in a small saucepan over medium heat,stir in lemon juice and scallions,and cook until onion is softened,about 3 minutes.Place cod onto oiled grates and grill until fish is browned and flakes easily,about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heatfor about 5 minutes before serving."
 
     }, {
-      "name": "hashbrowns",
+      "name": "Hashbrowns",
       "keyword": [{
         "ingredient": "virgin olive oil"
       }, {
@@ -1336,7 +1606,7 @@ var data = {
       "details": "Beat egg in a medium size mixing bowl. Mix egg and onion with mashed potatoes. Add salt and pepper.Heat olive oil in a medium size frying pan,over a medium heat.Scoop the potato mixutre into the frying pan in 4 inch circles,pat with a spatula to flatten the mounds to approximately 1 / 2 to 1 inch thick.Cook until bottom is browned.Flip the patty over and brown on the other side."
 
     }, {
-      "name": "black eyed peas",
+      "name": "Black Eyed Peas",
       "keyword": [{
         "ingredient": "virgin olive oil"
       }, {
@@ -1353,7 +1623,7 @@ var data = {
       "details": "Place the bacon in a large, deep skillet, and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain the bacon slices on a paper towel-lined plate.Mash the black - eye peas in a bowl with a fork.Crumble the bacon into the peas,and stir in the shallot,red peppers,and enough flour to make the mixture stick together.Season to taste with salt and pepper.Form the black - eye pea mixture into 4 patties.Melt the butter with the vegetable oil in a large skillet over medium heat.Cook the patties until golden brown and crispy on each side,about 4 minutes per side "
 
     }, {
-      "name": "stuffing",
+      "name": "Stuffing",
       "keyword": [{
         "ingredient": "virgin olive oil"
       }, {
@@ -1381,7 +1651,7 @@ var data = {
 
 
     }, {
-      "name": "tangy brocolli",
+      "name": "Tangy Brocolli",
       "keyword": [{
         "ingredient": "virgin olive oil"
       }, {
