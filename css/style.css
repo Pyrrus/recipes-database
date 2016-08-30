@@ -1,99 +1,34 @@
-html, body {
-    height: 100%;
+
+#car1 {
+  height: 315px;
+  width: 100%;
+}
+#car2 {
+  height: 315px;
+  width: 100%;
+}
+#car3 {
+  height: 300px;
+  width: 100%;
+}
+#searchBox {
+  padding-left: 300px;
+}
+#display {
+  text-align: center;
+  border: solid red;
+}
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
 
-.setHight {
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
     width: 100%;
-    height: 100%;
-    min-height: 100%;
 }
-
-.jumbotron {
-    text-align: center;
-    background-color: #f5dfb3
-}
-
-.col-md-3 {
-    background-color: #8fbc8e;
-    height: 100%;
-    min-height: 100%;
-    width: 22%;
-}
-
-.col-md-3 h2 {
-    margin-left: 20px;
-}
-
-.col-md-3 ul {
-    list-style-type: none;
-}
-
-.col-md-3 li {
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.col-md-9 {
-    height: 100%;
-    min-height: 100%;
-    margin-left: 30px;
-}
-
-.btn {
-    padding: 10px;
-}
-
-.pHeader {
-    color: #f5dfb1;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.overflow {
-    width: 150px;
-    height: 150px;
-    overflow-y: auto;
-}
-
-
-.left {
-	transition:2s;
-    -webkit-transition:2s;
-    -moz-transition:2s;
-    position:absolute;
-	left:calc(100% - 100px);
-}
-
-.leftM {
-	left: 0;
-}
-
-.right {
-	transition:4s;
-    -webkit-transition:4s;
-    -moz-transition:4s;
-    position:absolute;
-	right:calc(100% - 100px);
-}
-
-.rightM {
-	right: 0;
-}
-
-#ball {
-	padding-top: 20px;
-}
-
-#ballImg {
-	width: 50px;
-	height: auto;
-}
-
-@media screen and (max-width: 999px) {
-    .col-md-3 {
-        width: 100%;
-        height: auto;
-        min-height: auto;
-    }
+#addYours {
+  height: 35px;
+  width: 60px;
 }
