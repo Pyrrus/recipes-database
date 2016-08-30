@@ -10,6 +10,12 @@ var keyword = {
   "ingredient": ""
 }
 
+ function comment (name, email, comments) {
+      this.name = name;
+      this.email = email;
+      this.comment = comment;
+  }
+
 
 // UI Logic
 $(document).ready(function() {
@@ -48,13 +54,6 @@ $(document).ready(function() {
     $("input#details").val("");
     $("input.ingredient").val("");
 
-    function comment (name, email, comments) {
-      this.name = name;
-      this.email = email;
-      this.comment = comment;
-  });
-
-
-
  });
-  });
+
+});
