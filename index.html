@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipes database</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/database.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/search.js"></script>
+</head>
+<body>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img id="car1" src="http://www.fresheasymeals.com/uploads/5/2/6/2/5262077/7311415_orig.jpg?176" alt="...">
+        <div class="carousel-caption">
+          <h3>Baked Chicken</h3>
+        </div>
+      </div>
+      <div class="item">
+        <img id="car2" src="http://thebittenword.typepad.com/.a/6a00e55015ee52883300e553a8eedb8834-pi" alt="...">
+        <div class="carousel-caption">
+          <h3>Baked Cod</h3>
+        </div>
+      </div>
+      <div class="item">
+        <img id="car3" src="http://www.aljazeera.com/mritems/Images/2016/2/5/df7a84721c1f44a6be1a08a93ec6a043_18.jpg" alt="...">
+        <div class="carousel-caption">
+          <h3>Find your Recipe</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+  <h2>Enter your recipe or ingredients<input id="searchBox" type="text" name="search" placeholder="Search.."></h2>
+  <div id="display" class="jumbotron">
+    <h2>recipe name</h2>
+    <p>
+      Ingredients.............
+      cooking and prep time....details
+    </p>
+  </div>
+
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#recipes">
+    Add more recipes
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="recipes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Add more to the recipes</h4>
+        </div>
+        <div class="modal-body">
+          <form id="new-dish">
+            <div class="form-group">
+              <label for="name">Name of the dish</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="ct">Cooking time</label>
+              <input type="text" class="form-control" id="ct">
+            </div>
+            <div class="form-group">
+              <label for="hard">Select difficulty:</label>
+              <select class="form-control" id="hard">
+                <option>esay</option>
+                <option>mid</option>
+                <option>hard</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="details">Details for the dish:</label>
+              <textarea class="form-control" rows="3" id="details"></textarea>
+            </div>
+            <div id="new-ingredient">
+              <div class="new-ingredient">
+                <div class="form-group">
+                  <label for="ingredient">Ingredient</label>
+                  <input type="text" class="form-control ingredient">
+                </div>
+              </div>
+            </div>
+          </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Add to the database</button>
+            <button type="button" class="btn btn-primary" id="add-ingredient">Add more ingredient</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#myModal">Feedback</button>
+
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Feedback</h4>
+      </div>
+      <div class="modal-body">
+        <p>Add your name, email and comments below</p>
+        <form id="comments">
+          </form>
+          <label for="#names">Name</label>
+        <input id="names" type="text"  maxlength="50">
+        <label for="#email">Email address</label>
+         <input id="email" type="text"  maxlength="50">
+         <label for="#inputtedComment">Enter your comments</label>
+         <input id="inputtedComment" type="text" maxlength="70" value="">
+
+      <div class="modal-footer">
+        <button id="commentAdd" type="button" class="btn btn-default" data-dismiss="modal">Submit-</button>
+
+      </div>
+
+    </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

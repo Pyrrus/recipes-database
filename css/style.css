@@ -1,0 +1,34 @@
+
+#car1 {
+  height: 315px;
+  width: 100%;
+}
+#car2 {
+  height: 315px;
+  width: 100%;
+}
+#car3 {
+  height: 300px;
+  width: 100%;
+}
+#searchBox {
+  padding-left: 300px;
+}
+#display {
+  text-align: center;
+  border: solid red;
+}
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+#addYours {
+  height: 35px;
+  width: 60px;
+}
