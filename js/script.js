@@ -13,8 +13,12 @@ var keyword = {
  function comment (name, email, comments) {
       this.name = name;
       this.email = email;
-      this.comment = comment;
+      this.comment = comments;
   }
+
+function email(data) {
+  console.log("later we make email for the backend")
+}
 
 
 // UI Logic
@@ -30,8 +34,6 @@ $(document).ready(function() {
   });
 
   $("form#new-dish").submit(function(event) {
-    event.preventDefault();
-
     var inputtedDish= $("input#name").val();
     var inputtedCT = $("input#ct").val();
     var inputteddifficulty = $("#hard").val();
@@ -41,8 +43,8 @@ $(document).ready(function() {
 
     $(".new-ingredient").each(function() {
       var inputtedIngredient = $(this).find("input.ingredient").val();
-      keyword[".ingredient"] = inputtedIngredient;
-      add[".keyword"].push(keyword);
+      keyword["ingredient"] = inputtedIngredient;
+      add["keyword"].push(keyword);
     });
 
     $(".remove").remove();
@@ -53,7 +55,20 @@ $(document).ready(function() {
     $("input#ct").val("");
     $("input#details").val("");
     $("input.ingredient").val("");
+  });
+
+  $("#commentAdd").click(function(event) {
+    event.preventDefault();
+    var inputtedName = $("#names").val();
+    var inputtedEmail = $("#email").val();
+    var inputtedComment =$("#inputtedComment").val();
+    $("input#names").val("");
+    $("input#email").val("");
+    $("input#inputtedComments").val("");
+    console.log(inputtedName);
+    var info = new comment(inputtedName, inputtedEmail, inputtedComment);
+
+    email(info);
 
  });
-
 });
