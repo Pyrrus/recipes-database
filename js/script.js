@@ -53,7 +53,7 @@ $("#buttonName").click(function(){
   search.removedouble();
 
   $(".remove").remove();
-  
+
   for (var i = 0; i < search.found.length; i++) {
     display(search.found[i]);
   }
@@ -61,7 +61,7 @@ $("#buttonName").click(function(){
 
 // add recipe to database
   $("#add-ingredient").click(function() {
-    $("#new-ingredient").append('<div class="new-ingredient remove">' +
+    $("#new-ingredient").append('<div class="new-ingredient removeI">' +
                                  '<div class="form-group">' +
                                    '<label for="ingredient">Ingredient</label>' +
                                    '<input type="text" class="form-control ingredient">' +
@@ -69,9 +69,9 @@ $("#buttonName").click(function(){
                                '</div>');
   });
 
-  $("form#new-dish").submit(function(event) {
-    event.preventDefault();
+  $("#addR").click(function() {
 
+    console.log("INININININININININININININ")
     var inputtedDish= $("input#name").val();
     var inputtedCT = $("input#ct").val();
     var inputteddifficulty = $("#hard").val();
@@ -81,17 +81,17 @@ $("#buttonName").click(function(){
 
     $(".new-ingredient").each(function() {
       var inputtedIngredient = $(this).find("input.ingredient").val();
-      keyword[".ingredient"] = inputtedIngredient;
-      add[".keyword"].push(keyword);
+      keyword["ingredient"] = inputtedIngredient;
+      add["keyword"].push(keyword);
     });
 
-    $(".remove").remove();
+    $(".removeI").remove();
 
     database.push(add);
 
     $("input#name").val("");
     $("input#ct").val("");
-    $("input#details").val("");
+    $("#details").val("");
     $("input.ingredient").val("");
 
  });
