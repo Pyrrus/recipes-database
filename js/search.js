@@ -23,12 +23,26 @@ fetcher.prototype.search = function (database, keyword) {
 }
 
 // this will find the doubles in the found array
+// and remove
 fetcher.prototype.removedouble = function () {
   for (var i = 0; i < this.found.length; i++) {
     for (var j = i + 1; j < this.found.length; j++) {
-      if (this.found[i].name === this.found[j].name) {
-        this.found.splice(j, 1);
-      }
+      if (this.found[i] && this.found[j])
+        if (this.found[i].name === this.found[j].name) {
+          delete this.found[j];
+        }
     }
   }
+
+  var holder = [];
+
+  // remove the delete item from the found
+  for (var i = 0; i < this.found.length; i++) {
+    if (this.found[i]) {
+      holder.push(this.found[i]);
+    }
+  }
+
+  // set found to holder
+  this.found = holder;
 }
