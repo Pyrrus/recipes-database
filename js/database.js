@@ -1102,11 +1102,11 @@ var data = {
   }, {
     "ingredient": "cod"
   }, {
-    "ingredients": "cumin"
+    "ingredient": "cumin"
   }, {
     "ingredient": "dill weed"
   }, {
-    "ingredient": " cayenne pepper"
+    "ingredient": "cayenne pepper"
   }, {
     "ingredient": "cabbage"
   }, {
@@ -1132,7 +1132,7 @@ var data = {
   "difficulty": "easy",
   "details": "Preheat oven to 350 degrees F (175 degrees C).Place fish in a baking dish and drizzle melted butter over fish;season with garlic powder,garlic pepper seasoning,and salt.Top fish with lemon slices and capers.Bake in the preheated oven until fish flakes easily with a fork,15 to 20 minutes."
 }, {
-  "name": "staek on a stick",
+  "name": "steak on a stick",
   "keyword": [{
     "ingredient": "soy sauce"
   }, {
@@ -1144,7 +1144,7 @@ var data = {
   }, {
     "ingredient": "mustard powder"
   }, {
-    "ingredients": "ginger"
+    "ingredient": "ginger"
   }, {
     "ingredient": "garlic powder"
   }, {
@@ -1188,7 +1188,7 @@ var data = {
 }, {
   "name": "garlic green beans",
   "keyword": [{
-    "ingredients": "butter"
+    "ingredient": "butter"
   }, {
     "ingredient": "green beans"
   }, {
@@ -1202,7 +1202,7 @@ var data = {
 }, {
   "name": "grilled asparagus",
   "keyword": [{
-    "ingredients": "olive oil"
+    "ingredient": "olive oil"
   }, {
     "ingredient": "asparagus"
   }, {
@@ -1228,9 +1228,9 @@ var data = {
   "cookingTime": "25",
   "difficulty": "easy",
   "details": "Place carrots into a large saucepan, pour in enough water to reach depth of 1 inch, and bring to a boil. Reduce heat to low, cover, and simmer carrots until tender, 8 to 10 minutes. Drain and transfer to a bowl.Melt butter in the same saucepan;stir brown sugar,salt,and white pepper into butter until brown sugar and salt have dissolved.Transfer carrots into brown sugar sauce;cook and stir until carrots are glazed with sauce,about 5 more minutes."
-}, , {
+}, {
 
-      "name": "groasted balsamic cauliflower",
+      "name": "Roasted balsamic cauliflower",
       "keyword": [{
         "ingredient": "virgin olive oil"
       }, {
@@ -1298,7 +1298,7 @@ var data = {
       "cookingTime": "6d6h10m",
       "difficulty": "easy",
       "details": "n a 2 gallon container, mix together the brown sugar, curing mixture, and water. Submerge the pork belly in the mixture so that it is covered completely. If the meat floats, you can weigh it down with a dinner plate or similar object. Refrigerate covered for six days.Light charcoal in an outdoor smoker.Soak wood chips in a bowl of water.When the temperature of the smoker is between 140 and 150 degrees coals are ready.Smoke the pork bellyfor 6 hours,throwing a handful of wood chips on the coals about once an hour.Store in the refrigerator.Slice and fry as you would with store - bought bacon."
-    }, {}, {
+    }, {
 
       "name": "grilled cod",
       "keyword": [{
@@ -1350,12 +1350,12 @@ var data = {
       }],
       "cookingTime": "30",
       "difficulty": "easy",
-      "details": "SPlace the bacon in a large, deep skillet, and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain the bacon slices on a paper towel-lined plate.Mash the black - eye peas in a bowl with a fork.Crumble the bacon into the peas,and stir in the shallot,red peppers,and enough flour to make the mixture stick together.Season to taste with salt and pepper.Form the black - eye pea mixture into 4 patties.Melt the butter with the vegetable oil in a large skillet over medium heat.Cook the patties until golden brown and crispy on each side,about 4 minutes per side "
+      "details": "Place the bacon in a large, deep skillet, and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain the bacon slices on a paper towel-lined plate.Mash the black - eye peas in a bowl with a fork.Crumble the bacon into the peas,and stir in the shallot,red peppers,and enough flour to make the mixture stick together.Season to taste with salt and pepper.Form the black - eye pea mixture into 4 patties.Melt the butter with the vegetable oil in a large skillet over medium heat.Cook the patties until golden brown and crispy on each side,about 4 minutes per side "
 
     }, {
       "name": "stuffing",
       "keyword": [{
-        "ingredient": "virgin olive oil, cajun, cod, salt, black pepper, butter , lemon juice, green onion"
+        "ingredient": "virgin olive oil"
       }, {
         "ingredient": "wild rice"
       }, {
@@ -1394,10 +1394,8 @@ var data = {
       "cookingTime": "20",
       "difficulty": "easy",
       "details": "Steam broccoli until tender-crisp. Toss broccoli with mustard, then melt the cheese over the broccoli in a microwavefor 1 minute on HIGH. Stir and serve."
-
-
     }]
 };
 
 var database = data["cooking"];
-console.log(database);
+// console.log(database);
