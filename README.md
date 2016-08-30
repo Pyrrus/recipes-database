@@ -1,3 +1,8 @@
+ This is week 5 team week challenge
+   Our recipe database comes stock with 80 different recipes and options for more. A search built in and a comment form, and it sings and dances on the side, well maybe not so much but check it out anyway.
+
+
+
 Plain English Specs:
 ### The program can take in a single English word, or multiple words separated by commas and spaces and search through the database for a matching ingredient name .
   * Example Input: eggs, rice
@@ -20,3 +25,31 @@ Plain English Specs:
 ### On "Feedback" form comments and info are sent to backend.
   * Example Input: Click "Submit" button
   * Example Output: Field data is submitted to the backend
+  * 
+  
+
+KNOWN BUGS
+
+We don't have no stinkin bugs!
+
+Contributors
+Seth Kendall
+Adam Gorbhan
+Matt Brandeburg
+David Bethune
+
+Our gitghub repository sits on the corner of cool and really freakin' amazing
+no really it's at  http://www.github.com/pyrrus/recipe-database
+
+Software used:
+We used pure genius, 
+Atom
+HTML
+CSS
+Javascript
+A lot of playing around
+
+
+
+License:
+OPEN SOURCE BABY!!!!!
