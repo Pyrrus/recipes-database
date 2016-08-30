@@ -50,13 +50,9 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
   </div>
-  <h2>Enter your recipe or ingredients<input id="searchBox" type="text" name="search" placeholder="Search.."></h2>
+  <h2>Enter your recipe or ingredients<input id="searchBox" type="text" name="search" placeholder="Search.."><button type="button" class="btn btn-primary" id="buttonName">Search</button></h2>
   <div id="display" class="jumbotron">
-    <h2>recipe name</h2>
-    <p>
-      Ingredients.............
-      cooking and prep time....details
-    </p>
+
   </div>
 
 
@@ -85,7 +81,7 @@
             <div class="form-group">
               <label for="hard">Select difficulty:</label>
               <select class="form-control" id="hard">
-                <option>esay</option>
+                <option>easy</option>
                 <option>mid</option>
                 <option>hard</option>
               </select>
@@ -106,7 +102,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-primary">Add to the database</button>
+            <button type="button" id="addR" class="btn btn-primary">Add to the database</button>
             <button type="button" class="btn btn-primary" id="add-ingredient">Add more ingredient</button>
           </div>
         </div>

@@ -1,5 +1,3 @@
-var test = ["egg", "rice", "wine"];
-
 var fetcher = function () {
   this.found = [];
 }
@@ -28,11 +26,3 @@ fetcher.prototype.removedouble = function () {
     }
   }
 }
-
-var search = new fetcher;
-
-search.search(database, test);
-
-search.removedouble();
-
-console.log(search.found);
