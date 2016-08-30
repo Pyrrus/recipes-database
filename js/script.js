@@ -13,13 +13,53 @@ var keyword = {
  function comment (name, email, comments) {
       this.name = name;
       this.email = email;
-      this.comment = comment;
+      this.comment = comments;
+  }
+// display the data function
+function display(data) {
+  var string = "";
+  for (var i = 0; i < data.keyword.length; i++) {
+    string += data.keyword[i].ingredient + ", ";
+  }
+    $("#display").append("<div class='row remove' id='random-recipe'>" +
+      "<h2>" + data.name + "</h2>" +
+      "<h4>"+"Cooking Time: "+ data.cookingTime + "   - Difficulty: "+ data.difficulty +"</h4>"+
+      "<h5>What you will need: "+ string + "</h5>" +
+      "<p class='col-md-12'>"+data.details+"</p>"+
+      "</div>");
   }
 
+// randomly generated recipe on landing page
+var getDataFromDatabase = function() {
+  var getRandom = Math.floor((Math.random() * database.length) + 1);
+
+  display(database[getRandom]);
+}
 
 // UI Logic
 $(document).ready(function() {
+getDataFromDatabase();
+// search button
+$("#buttonName").click(function(){
+  var searchTermsArr = [];
+  var searchTerms = $("input#searchBox").val();
+  searchTermsArr = searchTerms.split(", ");
+  console.log(searchTermsArr);
 
+  var search = new fetcher;
+
+  search.search(database, searchTermsArr);
+
+  search.removedouble();
+
+  $(".remove").remove();
+  
+  for (var i = 0; i < search.found.length; i++) {
+    display(search.found[i]);
+  }
+});
+
+// add recipe to database
   $("#add-ingredient").click(function() {
     $("#new-ingredient").append('<div class="new-ingredient remove">' +
                                  '<div class="form-group">' +
@@ -55,5 +95,5 @@ $(document).ready(function() {
     $("input.ingredient").val("");
 
  });
-
+// end of recipe to database function
 });
