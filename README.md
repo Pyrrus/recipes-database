@@ -30,8 +30,10 @@ Plain English Specs:
 ### On "Feedback" form comments and info are sent to backend.
   * Example Input: Click "Submit" button
   * Example Output: Field data is submitted to the backend
-  *
 
+## Link
+
+http://pyrrus.github.io/recipes-database
 
 KNOWN BUGS
 
