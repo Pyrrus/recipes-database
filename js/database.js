@@ -135,30 +135,6 @@ var data = {
     "difficulty": "easy",
     "details": "1. Heat oven to 450° F. Roast the salmon fillet (8 oz) on a rimmed baking sheet until cooked through, 6 to 8 minutes; let cool, then flake. 2: Combine the smoked salmon (6 oz), mayonnaise (1/3 cup), celery (1/3 cup), chives, capers (1 teaspoon), lemon zest (1 teaspoon), flaked salmon, and 1/4 teaspoon pepper in a medium bowl. 3: Divide the salmon salad and lettuce leaves among the bread."
   }, {
-    "name": "Smoked Salmon Salad Sandwich",
-    "keyword": [{
-      "ingredient": "beets"
-    }, {
-      "ingredient": "olive oil"
-    }, {
-      "ingredient": "spinach"
-    }, {
-      "ingredient": "salt"
-    }, {
-      "ingredient": "mayonnaise"
-    }, {
-      "ingredient": "red wine vinegar"
-    }, {
-      "ingredient": "goat cheeser"
-    }, {
-      "ingredient": "raisins"
-    }, {
-      "ingredient": "bread"
-    }],
-    "cookingTime": "60",
-    "difficulty": "easy",
-    "details": "1. Heat oven to 450° F. Wrap the beets (4 small) in a large piece of aluminum foil and bake until easily pierced with a paring knife, 35 to 45 minutes. Let cool, then, using a paper towel, remove the skins. Thinly slice. 2: Heat the oil (2 tablespoons) in a large skillet over medium-high heat. Add as much spinach (about 12 cup) as will fit in the skillet. Season with 3/4 teaspoon salt and 1/4 teaspoon pepper. Cook, tossing frequently and adding more spinach when there is room, until just wilted, 2 to 3 minutes. Stir in the vinegar (1 tablespoons). 3: Meanwhile, combine the goat cheese (4 oz), raisins (1/4 cup), and 1/4 teaspoon pepper in a small bowl. 4: Divide the sliced beets, spinach, and goat cheese spread among the rolls."
-  }, {
     "name": "Tomato, Bacon, and Garlic Mayo Sandwich",
     "keyword": [{
       "ingredient": "bacon"
@@ -501,7 +477,7 @@ var data = {
       "difficulty": "easy",
       "details": "Lay out 2 pieces of bread. Add mustard and Mayonaise to one piece of bread. Apportion ham and cheese on bread according to preference/hunger. Cut off a couple thin layers of onion and add to sandwich with some cut lettuce."
   }, {
-    "name": "Grilled Double cheese",
+    "name": "Grilled Double Cheese",
       "keyword": [{
         "ingredient": "bread"
       }, {
@@ -565,7 +541,7 @@ var data = {
       "difficulty": "easy",
       "details": "Preheat oven to 400 degrees. Cut 1.5 lbs. red potatoes in half and toss with 1/8 cup olive oil, 3/4 teaspoon salt, 1/2 teaspoons pepper, 1 tablespoon minced garlic and 2 tablespoons minced rosemary. Dump coated potatoes on baking sheet and spread them out. Roast 1 hour or until browned. Flip twice during cooking"
   }, {
-    "name": "Pan-fried Pork chops",
+    "name": "Pan-fried Pork Chops",
       "keyword": [{
         "ingredient": "salt"
       }, {
@@ -735,7 +711,7 @@ var data = {
       "difficulty": "easy",
       "details": "Add 1.5 tablespoons olive oil to a pan and heat. Once warm enough to cover bottom of pan easily, add in a bushel of asparagus spears and 2 teaspoons salt. Cook until tender."
   }, {
-    "name": "Pigs in a blanket",
+    "name": "Pigs in a Blanket",
       "keyword": [{
         "ingredient": "bisquick"
       }, {
@@ -1251,7 +1227,7 @@ var data = {
     "cookingTime": "45",
     "difficulty": "medium",
     "details": "For the biscuits, in a large bowl combine flour, sugar, baking powder and salt together. Cut butter into mixture until it begins to look like cornmeal. Make a well with flour mixture and slowly add milk into the middle. Knead dough with your fingers and add milk when necessary. Roll out dough onto a lightly floured surface and roll out to desired thickness. Cut with small biscuit cutter. Butter bottom of skillet and place biscuits in pan. Cover and place on top of hot coals in the fireplace. Carefully place some hot coals on top of the skillet cover. Bake for 12 minutes or until golden brown. For gravy, with your finger, tear small pieces of sausage and add them in a single layer to a large heavy skillet. Brown the sausage over medium-high heat until no longer pink. Reduce the heat to medium-low. Sprinkle on half the flour and stir so that the sausage soaks it all up, then add more little by little. Stir it around and cook it for another minute or so, then pour in the milk, stirring constantly. Cook the gravy, stirring frequently, until it thickens. (This may take a good 10 to 12 minutes.) Sprinkle in the seasoned salt and pepper and continue cooking until very thick and luscious. If it gets too thick too soon, just splash in another 1/2 cup of milk or more if needed. Taste and adjust the seasoning. Pour over biscuits."
-  } , {
+  }, {
     "name": "Whoopie Pie",
     "keyword": [{
       "ingredient": "unsweet chocolate"
@@ -1279,7 +1255,7 @@ var data = {
     "cookingTime": "70",
     "difficulty": "easy",
     "details": "Preheat oven to 375 degrees F. Line a baking sheet with parchment paper or a silicon baking sheet. Put the unsweetened and semisweet chocolates and butter in a medium microwave-safe bowl; heat at 75 percent power until softened, about 2 minutes. Stir, and continue to microwave until completely melted, about 2 minutes more. (Alternatively, put the chocolate and butter in a heatproof bowl. Bring a saucepan filled with an inch or so of water to a very slow simmer; set the bowl over, but not touching the water, and stir occasionally until melted and smooth.) Whisk the sugar, eggs and vanilla into the chocolate mixture until smooth. Sift the flour, cocoa, baking powder and salt into another bowl. Gradually whisk the dry ingredients into the wet ingredients until moistened. Switch to a rubber spatula and finish folding the batter together; take care not to over-mix. Use a small cookie scoop or spoon to drop a heaping tablespoon of batter onto the prepared pan. Repeat to make 36 cookies, spacing them about 1-inch apart. Bake until the cookies spring back when lightly touched, about 6 minutes. Cool the cookies slightly. Transfer half of the cookies to a rack. Turn the remaining cookies on the pan over, so they lay flat side up. Place a marshmallow on top of each flipped cookie and return pan to the oven. Cook just until the marshmallow begins to soften and puff, about 3 minutes. Cool marshmallow topped cookies slightly, about 2 minutes. Top with the remaining cookies, pressing lightly to make sandwiches. Cool whoopee pies completely on wire racks. Serve."
-  } , {
+  }, {
     "name": "Pico de Gallo",
     "keyword": [{
       "ingredient": "tomato"
@@ -1298,374 +1274,367 @@ var data = {
     "difficulty": "easy",
     "details": "Dice up equal quantities of onion and tomato. Roughly chop the cilantro. Now, slice 1 or 2 jalapenos in half. With a spoon, scrape out the seeds. (If you like things spicy, leave in some of the white membranes.) Dice the jalapenos very finely; you want a hint of heat and jalapeno flavor, but you don't want to cause any fires. Now dump the four ingredients into a bowl. Slice the lime in half and squeeze the juice from half a lime the bowl. Sprinkle with salt, and stir together until combined. Be sure to taste the pico de gallo and adjust the seasonings, adding salt or more diced jalapeno if needed."
   }, {
-  "name": "Baked Chicken",
-  "keyword": [{
-    "ingredient": "sour cream"
-  }, {
-    "ingredient": "boneless chicken breast"
-  }, {
-    "ingredient": "black pepper"
-  }, {
-    "ingredient": "sour cream"
-  }, {
-    "ingredient": "dijon mustard"
-  }, {
-    "ingredient": "minced garlic"
-  }],
-  "cookingTime": "50",
-  "difficulty": "easy",
-  "details": "Preheat an oven to 400 degrees F (200 degrees C). Butter a baking dish. Whisk the sour cream, Dijon mustard, garlic, and pepper together in a large bowl.Add the chicken and turn to assure the breasts are well coated.Refrigerate 20 to 30 minutes. Combine the cornflakes and onion soup mix in a bowl.Gently press the chicken breasts into the cornflakes mixture to coat and shake off any excess.Lie the coated breasts in the buttered baking dish.Drizzle the melted butter over the chicken.Bake in the preheated oven until the chicken is golden brown,20 to 25 minutes.An instant - read thermometer inserted into the center should read at least 165 degrees F "
-}, {
-  "name": "Pancakes",
-  "keyword": [{
-    "ingredient": "white sugar"
-  }, {
-    "ingredient": "salt"
-  }, {
-    "ingredient": "white vinegar"
-  }, {
-    "ingredient": "baking powder"
-  }, {
-    "ingredient": "egg"
-  }],
-  "cookingTime": "60",
-  "difficulty": "easy",
-  "details": "Combine milk with vinegar in a medium bowl and set aside for 5 minutes to 10 minutessour .Combine flour,sugar,baking powder,baking soda,and salt in a large mixing bowl.Whisk egg and butter into soured milk.Pour the flour mixture into the wet ingredients and whisk until lumps are gone.Heat a large skillet over medium heat,and coat with cooking spray.Pour 1 / 4 cupfuls of batter onto the skillet,and cook until bubbles appear on the surface.Flip with a spatula,and cook until browned on the other side."
-}, {
-  "name": "French Toast",
-  "keyword": [{
-    "ingredient": "sugar"
-  }, {
-    "ingredient": "cinnamon"
-  }, {
-    "ingredient": "french bread"
-  }, {
-    "ingredient": "butter"
-  }, {
-    "ingredient": "eggs"
-  }, {
-    "ingredient": "sour-cream"
-  }, {
-    "ingredient": "whipped topping"
-  }],
-  "cookingTime": "35",
-  "difficulty": "easy",
-  "details": "In a medium bowl, whisk together the eggs, milk, 2 tablespoons of sugar, and cinnamon. Melt one tablespoon of butter in a large skillet over medium heat. Dip a few bread slices into the egg mixture just to coat. Place in the hot skillet, and cook until golden on each side, about 4 minutes per side. Repeat with remaining slices of bread. Melt 1 tablespoon of butter in the skillet before frying each batch of toast.While the toast is cooking,mix cream cheese,2 tablespoons of sugar,sour cream,and whipped topping using an electric mixer or blender until smooth,yet firm.Place servings of warm French toast onto plates,and top with a generous dollop of the frosting."
-}, {
-  "name": "Fish Taco",
-  "keyword": [{
-    "ingredient": "corn starch"
-  }, {
-    "ingredient": "salt"
-  }, {
-    "ingredient": "white vinegar"
-  }, {
-    "ingredient": "baking powder"
-  }, {
-    "ingredient": "eggs"
-  }, {
-    "ingredient": "beer"
-  }, {
-    "ingredient": "mayonnaise"
-  }, {
-    "ingredient": "jalapeno peppers"
-  }, {
-    "ingredient": "cod"
-  }, {
-    "ingredient": "cumin"
-  }, {
-    "ingredient": "dill weed"
-  }, {
-    "ingredient": "cayenne pepper"
-  }, {
-    "ingredient": "cabbage"
-  }, {
-    "ingredient": "tortilla"
-  }],
-  "cookingTime": "60",
-  "difficulty": "easy",
-  "details": "o make beer batter: In a large bowl, combine flour, cornstarch, baking powder, and salt. Blend egg and beer, then quickly stir into the flour mixture (don't worry about a few lumps).To make white sauce: In a medium bowl,mix together yogurt and mayonnaise.Gradually stir in fresh lime juice until consistency is slightly runny.Season with jalapeno,capers,oregano,cumin,dill,and cayenne.Heat oil in deep - fryer to 375 degrees F(190 degrees C).Dust fish pieces lightly with flour.Dip into beer batter,and fry until crisp and golden brown.Drain on paper towels.Lightly fry tortillas;not too crisp.To serve,place fried fish in a tortilla,and top with shredded cabbage,and white sauce."
-}, {
-  "name": "Baked Fish",
-  "keyword": [{
-    "ingredient": "garlic powder"
-  }, {
-    "ingredient": "salt"
-  }, {
-    "ingredient": "lemon"
-  }, {
-    "ingredient": "swai fish"
-  }, {
-    "ingredient": "butter"
-  }],
-  "cookingTime": "25",
-  "difficulty": "easy",
-  "details": "Preheat oven to 350 degrees F (175 degrees C).Place fish in a baking dish and drizzle melted butter over fish;season with garlic powder,garlic pepper seasoning,and salt.Top fish with lemon slices and capers.Bake in the preheated oven until fish flakes easily with a fork,15 to 20 minutes."
-}, {
-  "name": "Steak on a Stick",
-  "keyword": [{
-    "ingredient": "soy sauce"
-  }, {
-    "ingredient": "virgin olive oil"
-  }, {
-    "ingredient": "white wine vinegar"
-  }, {
-    "ingredient": "molasses"
-  }, {
-    "ingredient": "mustard powder"
-  }, {
-    "ingredient": "ginger"
-  }, {
-    "ingredient": "garlic powder"
-  }, {
-    "ingredient": "onion powder"
-  }, {
-    "ingredient": "flank steak"
-  }, {
-    "ingredient": "wooden skewers"
-  }],
-  "cookingTime": "8h20m",
-  "difficulty": "easy",
-  "details": "In a large resealable bag, combine the soy sauce, olive oil, water, molasses, mustard powder, ginger, garlic powder and onion powder. Seal and shake the bag to mix together. Add steak strips to the bag and seal. Refrigerate for at least 8 hours to marinate.Preheat the oven 's broiler. Thread meat onto skewers and place on a broiling rack.Broil the steakfor 3 to 4 minutes on each side.Arrange on a platter to serve."
-}, {
-  "name": "Roasted Chicken",
-  "keyword": [{
-    "ingredient": "whole chicken"
-  }, {
-    "ingredient": "onion powder"
-  }, {
-    "ingredient": "margarine"
-  }, {
-    "ingredient": "celery"
-  }, {
-    "ingredient": "salt"
-  }],
-  "cookingTime": "1h40m",
-  "difficulty": "easy",
-  "details": "Preheat oven to 350 degrees F (175 degrees C).Place chicken in a roasting pan,and season generously inside and out with salt and pepper.Sprinkle inside and out with onion powder.Place 3 tablespoons margarine in the chicken cavity.Arrange dollops of the remaining margarine around the chicken 's exterior. Cut the celery into 3 or 4 pieces, and place in the chicken cavity.Bake uncovered 1 hour and 15 minutes in the preheated oven,to a minimum internal temperature of 180 degrees F(82 degrees C).Remove from heat,and baste with melted margarine and drippings.Cover with aluminum foil,and allow to rest about 30 minutes before serving."
-}, {
-  "name": "Garlic Kale",
-  "keyword": [{
-    "ingredient": "virgin olive oil"
-  }, {
-    "ingredient": "olive oil"
-  }, {
-    "ingredient": "garlic"
-  }],
-  "cookingTime": "60",
-  "difficulty": "easy",
-  "details": "Soak kale leaves in a large bowl of water until dirt and sand begin to fall to the bottom, about 2 minutes. Lift kale from the bowl without drying the leaves and immediately remove and discard stems. Chop the kale leaves into 1-inch pieces.Heat olive oil in a large skillet over medium heat;cook and stir garlic until sizzling,about 1 minute.Add kale to the skillet and place a cover over the top.Cook,stirring occasionally with tongs,until kale is bright green and slightly tender,5 to 7 minutes."
-}, {
-  "name": "Garlic Green Beans",
-  "keyword": [{
-    "ingredient": "butter"
-  }, {
-    "ingredient": "green beans"
-  }, {
-    "ingredient": "garlic"
-  }, {
-    "ingredient": "salt"
-  }],
-  "cookingTime": "20",
-  "difficulty": "easy",
-  "details": "Melt butter in a skillet over medium heat; cook and stir green beans and garlic until beans begin to thaw. Season with salt and continue cooking and stirring until beans are lightly browned, 10 to 15 minutes."
-}, {
-  "name": "Grilled Asparagus",
-  "keyword": [{
-    "ingredient": "olive oil"
-  }, {
-    "ingredient": "asparagus"
-  }, {
-    "ingredient": "salt"
-  }],
-  "cookingTime": "18",
-  "difficulty": "easy",
-  "details": "Preheat grill for high heat.Lightly coat the asparagus spears with olive oil.Season with salt and pepper to taste.Grill over high heatfor 2 to 3 minutes,or to desired tenderness."
-}, {
-
-  "name": "Glazed Carrots",
-  "keyword": [{
-    "ingredient": "carrots"
-  }, {
-    "ingredient": "butter"
-  }, {
-    "ingredient": "salt"
-  }, {
-    "ingredient": "brown sugar"
-  }, {
-    "ingredient": "white pepper"
-  }],
-  "cookingTime": "25",
-  "difficulty": "easy",
-  "details": "Place carrots into a large saucepan, pour in enough water to reach depth of 1 inch, and bring to a boil. Reduce heat to low, cover, and simmer carrots until tender, 8 to 10 minutes. Drain and transfer to a bowl.Melt butter in the same saucepan;stir brown sugar,salt,and white pepper into butter until brown sugar and salt have dissolved.Transfer carrots into brown sugar sauce;cook and stir until carrots are glazed with sauce,about 5 more minutes."
-}, {
-
-      "name": "Roasted Balsamic Cauliflower",
-      "keyword": [{
-        "ingredient": "virgin olive oil"
-      }, {
-        "ingredient": "balsamic vinegar"
-      }, {
-        "ingredient": "salt"
-      }, {
-        "ingredient": "garlic"
-      }, {
-        "ingredient": "cauliflower"
-      }],
-      "cookingTime": "30",
-      "difficulty": "easy",
-      "details": "Preheat oven to 450 degrees F (230 degrees C). Line a baking sheet with aluminum foilStir the olive oil,balsamic vinegar,salt,and garlic together in a bowl.Add the cauliflower and toss to coat;spread the mixture onto the lined baking sheet.Stirring occasionally,bake in the preheated oven until tender,about 20 minutes."
-
+    "name": "Baked Chicken",
+    "keyword": [{
+      "ingredient": "sour cream"
     }, {
-
-      "name": "Pork Chops",
-      "keyword": [{
-        "ingredient": "virgin olive oil"
-      }, {
-        "ingredient": "garlic"
-      }, {
-        "ingredient": "salt"
-      }, {
-        "ingredient": "black pepper"
-      }, {
-        "ingredient": "pork"
-      }],
-      "cookingTime": "60",
-      "difficulty": "easy",
-      "details": "Preheat the oven to 425 degrees F (220 degrees C).Place the garlic,salt,pepper,oregano,and olive oil into the container of a food processor or blender.Process until smooth.Use a small knife to make several incisions in the fresh ham.Insert the garlic paste into each one using a small spoon.Place the ham in a roaster,and cover.Bakefor 1 1 / 2 hours in the preheated oven,then check every 15 minutes or so,until the internal temperature reaches 175 degrees F(80 degrees C) when taken with a meat thermometer.While the meat is roasting,place the yucca in a large pot of boiling water.Cook until fork tender,and drain.Serve with pork roast."
-
+      "ingredient": "boneless chicken breast"
     }, {
-
-      "name": "Eggs Benedict",
-      "keyword": [{
-        "ingredient": "virgin olive oil"
-      }, {
-        "ingredient": "eggs"
-      }, {
-        "ingredient": "white pepper"
-      }, {
-        "ingredient": "worcestershire sauce"
-      }, {
-        "ingredient": "butter"
-      }, {
-        "ingredient": "white vinegar"
-      }, {
-        "ingredient": "canadian bacon"
-      }],
-      "cookingTime": "30",
-      "difficulty": "easy",
-      "details": "To Make Hollandaise: Fill the bottom of a double boiler part-way with water. Make sure that water does not touch the top pan. Bring water to a gentle simmer. In the top of the double boiler, whisk together egg yolks, lemon juice, white pepper, Worcestershire sauce, and 1 tablespoon water.Add the melted butter to egg yolk mixture 1 or 2 tablespoons at a timewhile whisking yolks constantly.If hollandaise begins toget too thick,add a teaspoon or two of hot water.Continue whisking until all butter is incorporated.Whisk in salt,then remove from heat.Place a lid on pan to keep sauce warm.Preheat oven on broiler setting.To Poach Eggs: Fill a large saucepan with 3 inches of water.Bring water to a gentle simmer,then add vinegar.Carefullybreak eggs into simmering water,and allow to cookfor 2 1 / 2 to 3 minutes.Yolks should still be soft in center.Remove eggs from water with a slotted spoon andset on a warm plateWhile eggs are poaching,brown the bacon in a medium skillet over medium - high heat and toast the English muffins on a baking sheet under the broiler.Spread toasted muffins with softened butter,and top each one with a slice of bacon,followed by one poached egg.Place 2 muffins on each plate and drizzle with hollandaise sauce.Sprinkle with chopped chives and serve immediately."
+      "ingredient": "black pepper"
     }, {
-
-      "name": "Bacon",
-      "keyword": [{
-        "ingredient": "raw pork belly"
-      }, {
-        "ingredient": "brown sugar"
-      }, {
-        "ingredient": "apple or hickory wood chips"
-      }],
-      "cookingTime": "6d6h10m",
-      "difficulty": "easy",
-      "details": "n a 2 gallon container, mix together the brown sugar, curing mixture, and water. Submerge the pork belly in the mixture so that it is covered completely. If the meat floats, you can weigh it down with a dinner plate or similar object. Refrigerate covered for six days.Light charcoal in an outdoor smoker.Soak wood chips in a bowl of water.When the temperature of the smoker is between 140 and 150 degrees coals are ready.Smoke the pork bellyfor 6 hours,throwing a handful of wood chips on the coals about once an hour.Store in the refrigerator.Slice and fry as you would with store - bought bacon."
+      "ingredient": "sour cream"
     }, {
-
-      "name": "Grilled Cod",
-      "keyword": [{
-        "ingredient": "virgin olive oil"
-      }, {
-        "ingredient": "cajun seasoning"
-      }, {
-        "ingredient": "cod"
-      }, {
-        "ingredient": "black pepper"
-      }, {
-        "ingredient": "butter"
-      }, {
-        "ingredient": "lemon juice"
-      }, {
-        "ingredient": "scallions"
-      }],
-      "cookingTime": "35",
-      "difficulty": "easy",
-      "details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates.Season both sides of cod with Cajun seasoning,lemon pepper,salt,and black pepper.Set fish aside on a plate.Heat butter in a small saucepan over medium heat,stir in lemon juice and scallions,and cook until onion is softened,about 3 minutes.Place cod onto oiled grates and grill until fish is browned and flakes easily,about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heatfor about 5 minutes before serving."
-
+      "ingredient": "dijon mustard"
     }, {
-      "name": "Hashbrowns",
-      "keyword": [{
-        "ingredient": "virgin olive oil"
-      }, {
-        "ingredient": "potatoes"
-      }, {
-        "ingredient": "salt"
-      }, {
-        "ingredient": "black pepper"
-      }],
-      "cookingTime": "35",
-      "difficulty": "easy",
-      "details": "Beat egg in a medium size mixing bowl. Mix egg and onion with mashed potatoes. Add salt and pepper.Heat olive oil in a medium size frying pan,over a medium heat.Scoop the potato mixutre into the frying pan in 4 inch circles,pat with a spatula to flatten the mounds to approximately 1 / 2 to 1 inch thick.Cook until bottom is browned.Flip the patty over and brown on the other side."
-
+      "ingredient": "minced garlic"
+    }],
+    "cookingTime": "50",
+    "difficulty": "easy",
+    "details": "Preheat an oven to 400 degrees F (200 degrees C). Butter a baking dish. Whisk the sour cream, Dijon mustard, garlic, and pepper together in a large bowl. Add the chicken and turn to assure the breasts are well coated. Refrigerate 20 to 30 minutes. Combine the cornflakes and onion soup mix in a bowl. Gently press the chicken breasts into the cornflakes mixture to coat and shake off any excess. Lie the coated breasts in the buttered baking dish.Drizzle the melted butter over the chicken.Bake in the preheated oven until the chicken is golden brown, 20 to 25 minutes.An instant - read thermometer inserted into the center should read at least 165 degrees F "
+  }, {
+    "name": "Pancakes",
+    "keyword": [{
+      "ingredient": "white sugar"
     }, {
-      "name": "Black Eyed Peas",
-      "keyword": [{
-        "ingredient": "virgin olive oil"
-      }, {
-        "ingredient": "bacon"
-      }, {
-        "ingredient": "shallots"
-      }, {
-        "ingredient": "black pepper"
-      }, {
-        "ingredient": "flour"
-      }],
-      "cookingTime": "30",
-      "difficulty": "easy",
-      "details": "Place the bacon in a large, deep skillet, and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain the bacon slices on a paper towel-lined plate.Mash the black - eye peas in a bowl with a fork.Crumble the bacon into the peas,and stir in the shallot,red peppers,and enough flour to make the mixture stick together.Season to taste with salt and pepper.Form the black - eye pea mixture into 4 patties.Melt the butter with the vegetable oil in a large skillet over medium heat.Cook the patties until golden brown and crispy on each side,about 4 minutes per side "
-
+      "ingredient": "salt"
     }, {
-      "name": "Stuffing",
-      "keyword": [{
-        "ingredient": "virgin olive oil"
-      }, {
-        "ingredient": "wild rice"
-      }, {
-        "ingredient": "sausage"
-      }, {
-        "ingredient": "butter"
-      }, {
-        "ingredient": "onion"
-      }, {
-        "ingredient": "mushrooms"
-      }, {
-        "ingredient": "thyme"
-      }, {
-        "ingredient": "wheat bread"
-      }, {
-        "ingredient": "raisins"
-      }, {
-        "ingredient": "chicken broth"
-      }],
-      "cookingTime": "35",
-      "difficulty": "easy",
-      "details": "In a medium saucepan, boil water and stir in wild rice. Reduce heat. Cover, and simmer 45 minutes, until water has been absorbed and rice is tender. Preheat oven to 350 degrees F(175 degrees C).Melt butter in a large,heavy skillet over medium heat.Stir in sausage,onions,and celery.Cook until sausage is evenly browned,10 to 12 minutes.Drain,and stir in mushrooms,thyme,and rosemary.Continue cooking about 2 minutes,until mushrooms are lightly browned.Remove from heat,and season with salt and pepper.In a large bowl,mix the sausage mixture with the cooked rice,whole wheat bread,apples,and raisins.Gradually blend in chicken broth until mixture is moistened.Transfer mixture to a large baking dish.Bake 30 minutes in the preheated oven,until lightly browned."
-
-
+      "ingredient": "white vinegar"
     }, {
-      "name": "Tangy Brocolli",
-      "keyword": [{
-        "ingredient": "virgin olive oil"
-      }, {
-        "ingredient": "brocolli"
-      }, {
-        "ingredient": "dijon mustard"
-      }, {
-        "ingredient": "cheese"
-      }],
-      "cookingTime": "20",
-      "difficulty": "easy",
-      "details": "Steam broccoli until tender-crisp. Toss broccoli with mustard, then melt the cheese over the broccoli in a microwavefor 1 minute on HIGH. Stir and serve."
-    }]
+      "ingredient": "baking powder"
+    }, {
+      "ingredient": "egg"
+    }],
+    "cookingTime": "60",
+    "difficulty": "easy",
+    "details": "Combine milk with vinegar in a medium bowl and set aside for 5 minutes to 10 minutessour .Combine flour, sugar, baking powder, baking soda, and salt in a large mixing bowl. Whisk egg and butter into soured milk. Pour the flour mixture into the wet ingredients and whisk until lumps are gone. Heat a large skillet over medium heat, and coat with cooking spray. Pour 1 / 4 cupfuls of batter onto the skillet, and cook until bubbles appear on the surface. Flip with a spatula, and cook until browned on the other side."
+  }, {
+    "name": "French Toast",
+    "keyword": [{
+      "ingredient": "sugar"
+    }, {
+      "ingredient": "cinnamon"
+    }, {
+      "ingredient": "french bread"
+    }, {
+      "ingredient": "butter"
+    }, {
+      "ingredient": "eggs"
+    }, {
+      "ingredient": "sour-cream"
+    }, {
+      "ingredient": "whipped topping"
+    }],
+    "cookingTime": "35",
+    "difficulty": "easy",
+    "details": "In a medium bowl, whisk together the eggs, milk, 2 tablespoons of sugar, and cinnamon. Melt one tablespoon of butter in a large skillet over medium heat. Dip a few bread slices into the egg mixture just to coat. Place in the hot skillet, and cook until golden on each side, about 4 minutes per side. Repeat with remaining slices of bread. Melt 1 tablespoon of butter in the skillet before frying each batch of toast.While the toast is cooking, mix cream cheese, 2 tablespoons of sugar, sour cream,and whipped topping using an electric mixer or blender until smooth, yet firm. Place servings of warm french toast onto plates, and top with a generous dollop of the frosting."
+  }, {
+    "name": "Fish Taco",
+    "keyword": [{
+      "ingredient": "corn starch"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "white vinegar"
+    }, {
+      "ingredient": "baking powder"
+    }, {
+      "ingredient": "eggs"
+    }, {
+      "ingredient": "beer"
+    }, {
+      "ingredient": "mayonnaise"
+    }, {
+      "ingredient": "jalapeno peppers"
+    }, {
+      "ingredient": "cod"
+    }, {
+      "ingredient": "cumin"
+    }, {
+      "ingredient": "dill weed"
+    }, {
+      "ingredient": "cayenne pepper"
+    }, {
+      "ingredient": "cabbage"
+    }, {
+      "ingredient": "tortilla"
+    }],
+    "cookingTime": "60",
+    "difficulty": "easy",
+    "details": "To make beer batter: In a large bowl, combine flour, cornstarch, baking powder, and salt. Blend egg and beer, then quickly stir into the flour mixture (don't worry about a few lumps).To make white sauce: In a medium bowl,mix together yogurt and mayonnaise. Gradually stir in fresh lime juice until consistency is slightly runny. Season with jalapeno, capers, oregano, cumin, dill, and cayenne. Heat oil in deep - fryer to 375 degrees F(190 degrees C). Dust fish pieces lightly with flour. Dip into beer batter,and fry until crisp and golden brown. Drain on paper towels. Lightly fry tortillas;not too crisp. To serve, place fried fish in a tortilla, and top with shredded cabbage, and white sauce."
+  }, {
+    "name": "Baked Fish",
+    "keyword": [{
+      "ingredient": "garlic powder"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "lemon"
+    }, {
+      "ingredient": "swai fish"
+    }, {
+      "ingredient": "butter"
+    }],
+    "cookingTime": "25",
+    "difficulty": "easy",
+    "details": "Preheat oven to 350 degrees F (175 degrees C). Place fish in a baking dish and drizzle melted butter over fish; season with garlic powder, garlic pepper seasoning, and salt. Top fish with lemon slices and capers. Bake in the preheated oven until fish flakes easily with a fork,15 to 20 minutes."
+  }, {
+    "name": "Steak on a Stick",
+    "keyword": [{
+      "ingredient": "soy sauce"
+    }, {
+      "ingredient": "virgin olive oil"
+    }, {
+      "ingredient": "white wine vinegar"
+    }, {
+      "ingredient": "molasses"
+    }, {
+      "ingredient": "mustard powder"
+    }, {
+      "ingredient": "ginger"
+    }, {
+      "ingredient": "garlic powder"
+    }, {
+      "ingredient": "onion powder"
+    }, {
+      "ingredient": "flank steak"
+    }, {
+      "ingredient": "wooden skewers"
+    }],
+    "cookingTime": "8h20m",
+    "difficulty": "easy",
+    "details": "In a large resealable bag, combine the soy sauce, olive oil, water, molasses, mustard powder, ginger, garlic powder and onion powder. Seal and shake the bag to mix together. Add steak strips to the bag and seal. Refrigerate for at least 8 hours to marinate.Preheat the oven 's broiler. Thread meat onto skewers and place on a broiling rack. Broil the steakfor 3 to 4 minutes on each side. Arrange on a platter to serve."
+  }, {
+    "name": "Roasted Chicken",
+    "keyword": [{
+      "ingredient": "whole chicken"
+    }, {
+      "ingredient": "onion powder"
+    }, {
+      "ingredient": "margarine"
+    }, {
+      "ingredient": "celery"
+    }, {
+      "ingredient": "salt"
+    }],
+    "cookingTime": "1h40m",
+    "difficulty": "easy",
+    "details": "Preheat oven to 350 degrees F (175 degrees C). Place chicken in a roasting pan, and season generously inside and out with salt and pepper. Sprinkle inside and out with onion powder. Place 3 tablespoons margarine in the chicken cavity. Arrange dollops of the remaining margarine around the chicken's exterior. Cut the celery into 3 or 4 pieces, and place in the chicken cavity. Bake uncovered 1 hour and 15 minutes in the preheated oven, to a minimum internal temperature of 180 degrees F(82 degrees C). Remove from heat, and baste with melted margarine and drippings. Cover with aluminum foil, and allow to rest about 30 minutes before serving."
+  }, {
+    "name": "Garlic Kale",
+    "keyword": [{
+      "ingredient": "virgin olive oil"
+    }, {
+      "ingredient": "olive oil"
+    }, {
+      "ingredient": "garlic"
+    }],
+    "cookingTime": "60",
+    "difficulty": "easy",
+    "details": "Soak kale leaves in a large bowl of water until dirt and sand begin to fall to the bottom, about 2 minutes. Lift kale from the bowl without drying the leaves and immediately remove and discard stems. Chop the kale leaves into 1-inch pieces. Heat olive oil in a large skillet over medium heat;cook and stir garlic until sizzling, about 1 minute.Add kale to the skillet and place a cover over the top. Cook, stirring occasionally with tongs, until kale is bright green and slightly tender, 5 to 7 minutes."
+  }, {
+    "name": "Garlic Green Beans",
+    "keyword": [{
+      "ingredient": "butter"
+    }, {
+      "ingredient": "green beans"
+    }, {
+      "ingredient": "garlic"
+    }, {
+      "ingredient": "salt"
+    }],
+    "cookingTime": "20",
+    "difficulty": "easy",
+    "details": "Melt butter in a skillet over medium heat; cook and stir green beans and garlic until beans begin to thaw. Season with salt and continue cooking and stirring until beans are lightly browned, 10 to 15 minutes."
+  }, {
+    "name": "Grilled Asparagus",
+    "keyword": [{
+      "ingredient": "olive oil"
+    }, {
+      "ingredient": "asparagus"
+    }, {
+      "ingredient": "salt"
+    }],
+    "cookingTime": "18",
+    "difficulty": "easy",
+    "details": "Preheat grill for high heat. Lightly coat the asparagus spears with olive oil. Season with salt and pepper to taste. Grill over high heatfor 2 to 3 minutes,or to desired tenderness."
+  }, {
+    "name": "Glazed Carrots",
+    "keyword": [{
+      "ingredient": "carrots"
+    }, {
+      "ingredient": "butter"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "brown sugar"
+    }, {
+      "ingredient": "white pepper"
+    }],
+    "cookingTime": "25",
+    "difficulty": "easy",
+    "details": "Place carrots into a large saucepan, pour in enough water to reach depth of 1 inch, and bring to a boil. Reduce heat to low, cover, and simmer carrots until tender, 8 to 10 minutes. Drain and transfer to a bowl. Melt butter in the same saucepan; stir brown sugar, salt, and white pepper into butter until brown sugar and salt have dissolved. Transfer carrots into brown sugar sauce; cook and stir until carrots are glazed with sauce,about 5 more minutes."
+  }, {
+    "name": "Roasted Balsamic Cauliflower",
+    "keyword": [{
+      "ingredient": "virgin olive oil"
+    }, {
+      "ingredient": "balsamic vinegar"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "garlic"
+    }, {
+      "ingredient": "cauliflower"
+    }],
+    "cookingTime": "30",
+    "difficulty": "easy",
+    "details": "Preheat oven to 450 degrees F (230 degrees C). Line a baking sheet with aluminum foil. Stir the olive oil, balsamic vinegar, salt, and garlic together in a bowl.Add the cauliflower and toss to coat; spread the mixture onto the lined baking sheet. Stirring occasionally, bake in the preheated oven until tender, about 20 minutes."
+  }, {
+    "name": "Pork Roast",
+    "keyword": [{
+      "ingredient": "virgin olive oil"
+    }, {
+      "ingredient": "garlic"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "black pepper"
+    }, {
+      "ingredient": "pork"
+    }, {
+      "ingredient": "oregano"
+    }, {
+      "ingredient": "yucca"
+    }],
+    "cookingTime": "60",
+    "difficulty": "easy",
+    "details": "Preheat the oven to 425 degrees F (220 degrees C). Place the garlic, salt, pepper, oregano, and olive oil into the container of a food processor or blender. Process until smooth. Use a small knife to make several incisions in the fresh ham. Insert the garlic paste into each one using a small spoon. Place the ham in a roaster,and cover. Bakefor 1 1 / 2 hours in the preheated oven, then check every 15 minutes or so, until the internal temperature reaches 175 degrees F(80 degrees C) when taken with a meat thermometer. While the meat is roasting, place the yucca in a large pot of boiling water. Cook until fork tender,and drain. Serve with pork roast."
+  }, {
+
+    "name": "Eggs Benedict",
+    "keyword": [{
+      "ingredient": "virgin olive oil"
+    }, {
+      "ingredient": "eggs"
+    }, {
+      "ingredient": "white pepper"
+    }, {
+      "ingredient": "worcestershire sauce"
+    }, {
+      "ingredient": "butter"
+    }, {
+      "ingredient": "white vinegar"
+    }, {
+      "ingredient": "canadian bacon"
+    }],
+    "cookingTime": "30",
+    "difficulty": "easy",
+    "details": "To Make Hollandaise: Fill the bottom of a double boiler part-way with water. Make sure that water does not touch the top pan. Bring water to a gentle simmer. In the top of the double boiler, whisk together egg yolks, lemon juice, white pepper, Worcestershire sauce, and 1 tablespoon water.Add the melted butter to egg yolk mixture 1 or 2 tablespoons at a timewhile whisking yolks constantly.If hollandaise begins toget too thick,add a teaspoon or two of hot water.Continue whisking until all butter is incorporated.Whisk in salt,then remove from heat.Place a lid on pan to keep sauce warm.Preheat oven on broiler setting.To Poach Eggs: Fill a large saucepan with 3 inches of water.Bring water to a gentle simmer,then add vinegar.Carefullybreak eggs into simmering water,and allow to cookfor 2 1 / 2 to 3 minutes.Yolks should still be soft in center.Remove eggs from water with a slotted spoon andset on a warm plateWhile eggs are poaching,brown the bacon in a medium skillet over medium - high heat and toast the English muffins on a baking sheet under the broiler.Spread toasted muffins with softened butter,and top each one with a slice of bacon,followed by one poached egg.Place 2 muffins on each plate and drizzle with hollandaise sauce.Sprinkle with chopped chives and serve immediately."
+  }, {
+
+    "name": "Bacon",
+    "keyword": [{
+      "ingredient": "raw pork belly"
+    }, {
+      "ingredient": "brown sugar"
+    }, {
+      "ingredient": "apple or hickory wood chips"
+    }],
+    "cookingTime": "6d6h10m",
+    "difficulty": "easy",
+    "details": "n a 2 gallon container, mix together the brown sugar, curing mixture, and water. Submerge the pork belly in the mixture so that it is covered completely. If the meat floats, you can weigh it down with a dinner plate or similar object. Refrigerate covered for six days.Light charcoal in an outdoor smoker.Soak wood chips in a bowl of water.When the temperature of the smoker is between 140 and 150 degrees coals are ready.Smoke the pork bellyfor 6 hours,throwing a handful of wood chips on the coals about once an hour.Store in the refrigerator.Slice and fry as you would with store - bought bacon."
+  }, {
+
+    "name": "Grilled Cod",
+    "keyword": [{
+      "ingredient": "virgin olive oil"
+    }, {
+      "ingredient": "cajun seasoning"
+    }, {
+      "ingredient": "cod"
+    }, {
+      "ingredient": "black pepper"
+    }, {
+      "ingredient": "butter"
+    }, {
+      "ingredient": "lemon juice"
+    }, {
+      "ingredient": "scallions"
+    }],
+    "cookingTime": "35",
+    "difficulty": "easy",
+    "details": "Stack about 15 charcoal briquettes into a grill in a pyramid shape. If desired, drizzle coals lightly with lighter fluid and allow to soak for 1 minute before lighting coals with a match. Allow fire to spread to all coals, about 10 minutes, before spreading briquettes out into the grill; let coals burn until a thin layer of white ash covers the coals. Lightly oil the grates. Season both sides of cod with Cajun seasoning, lemon pepper, salt, and black pepper. Set fish aside on a plate.Heat butter in a small saucepan over medium heat, stir in lemon juice and scallions, and cook until onion is softened, about 3 minutes. Place cod onto oiled grates and grill until fish is browned and flakes easily, about 3 minutes per side; baste with butter mixture frequently while grilling. Allow cod to rest off the heatfor about 5 minutes before serving."
+  }, {
+    "name": "Hashbrowns",
+    "keyword": [{
+      "ingredient": "virgin olive oil"
+    }, {
+      "ingredient": "potatoes"
+    }, {
+      "ingredient": "salt"
+    }, {
+      "ingredient": "black pepper"
+    }],
+    "cookingTime": "35",
+    "difficulty": "easy",
+    "details": "Beat egg in a medium size mixing bowl. Mix egg and onion with mashed potatoes. Add salt and pepper.Heat olive oil in a medium size frying pan,over a medium heat. Scoop the potato mixutre into the frying pan in 4 inch circles,pat with a spatula to flatten the mounds to approximately 1 / 2 to 1 inch thick.Cook until bottom is browned.Flip the patty over and brown on the other side."
+  }, {
+    "name": "Black Eyed Peas",
+    "keyword": [{
+      "ingredient": "virgin olive oil"
+    }, {
+      "ingredient": "bacon"
+    }, {
+      "ingredient": "shallots"
+    }, {
+      "ingredient": "black pepper"
+    }, {
+      "ingredient": "flour"
+    }],
+    "cookingTime": "30",
+    "difficulty": "easy",
+    "details": "Place the bacon in a large, deep skillet, and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain the bacon slices on a paper towel-lined plate.Mash the black - eye peas in a bowl with a fork. Crumble the bacon into the peas,and stir in the shallot,red peppers,and enough flour to make the mixture stick together. Season to taste with salt and pepper.Form the black - eye pea mixture into 4 patties. Melt the butter with the vegetable oil in a large skillet over medium heat. Cook the patties until golden brown and crispy on each side,about 4 minutes per side "
+  }, {
+    "name": "Stuffing",
+    "keyword": [{
+      "ingredient": "virgin olive oil"
+    }, {
+      "ingredient": "wild rice"
+    }, {
+      "ingredient": "sausage"
+    }, {
+      "ingredient": "butter"
+    }, {
+      "ingredient": "onion"
+    }, {
+      "ingredient": "mushrooms"
+    }, {
+      "ingredient": "thyme"
+    }, {
+      "ingredient": "wheat bread"
+    }, {
+      "ingredient": "raisins"
+    }, {
+      "ingredient": "chicken broth"
+    }],
+    "cookingTime": "35",
+    "difficulty": "easy",
+    "details": "In a medium saucepan, boil water and stir in wild rice. Reduce heat. Cover, and simmer 45 minutes, until water has been absorbed and rice is tender. Preheat oven to 350 degrees F(175 degrees C).Melt butter in a large,heavy skillet over medium heat. Stir in sausage,onions,and celery. Cook until sausage is evenly browned,10 to 12 minutes. Drain,and stir in mushrooms,thyme,and rosemary.Continue cooking about 2 minutes, until mushrooms are lightly browned. Remove from heat,and season with salt and pepper. In a large bowl,mix the sausage mixture with the cooked rice,whole wheat bread,apples,and raisins. Gradually blend in chicken broth until mixture is moistened. Transfer mixture to a large baking dish. Bake 30 minutes in the preheated oven, until lightly browned."
+  }, {
+    "name": "Tangy Brocolli",
+    "keyword": [{
+      "ingredient": "virgin olive oil"
+    }, {
+      "ingredient": "brocolli"
+    }, {
+      "ingredient": "dijon mustard"
+    }, {
+      "ingredient": "cheese"
+    }],
+    "cookingTime": "20",
+    "difficulty": "easy",
+    "details": "Steam broccoli until tender-crisp. Toss broccoli with mustard, then melt the cheese over the broccoli in a microwavefor 1 minute on HIGH. Stir and serve."
+  }]
 };
 
 var database = data["cooking"];
-// console.log(database);
