@@ -152,7 +152,7 @@ $(document).ready(function() {
     $("input#names").val("");
     $("input#email").val("");
     $("input#inputtedComments").val("");
-    var info = new comment(inputtedName, inputtedEmail, inputtedComment);
+    var info = new Comment(inputtedName, inputtedEmail, inputtedComment);
     email(info);
   });
   var selector = '.nav li';
