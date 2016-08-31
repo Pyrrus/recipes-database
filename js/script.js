@@ -148,6 +148,18 @@ $(document).ready(function() {
     $("input#ct").val("");
     $("#details").val("");
     $("input.ingredient").val("");
+    $(".fullLibReturn").remove();
+    for(i=0;i<database.length;i++) {
+      $("ul#fullLib1").append("<li class='fullLibReturn'><span id='" + database[i].name + "'>" + database[i].name + "</span></li>");
+    }
+    $("span").click(function () {
+      var data = $(this).attr('id');
+      for (var i = 0; i < database.length; i++) {
+        if (database[i].name === data) {
+          display2(database[i])
+        }
+      }
+    })
   });
 
   $("#commentAdd").click(function() {
@@ -164,10 +176,11 @@ $(document).ready(function() {
   $("#fullLibrary").on('click', function(){
     $(selector).removeClass('active');
     $(this).addClass('active');
+    $(".fullLibReturn").remove();
     $(".ingredientSearch").hide();
     $(".fullLibrary").show();
     for(i=0;i<database.length;i++) {
-      $("ul#fullLib1").append("<li><span class='fullLibReturn' id='" + database[i].name + "'>" + database[i].name + "</span></li>");
+      $("ul#fullLib1").append("<li class='fullLibReturn'><span id='" + database[i].name + "'>" + database[i].name + "</span></li>");
     }
 
     $("span").click(function () {
