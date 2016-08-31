@@ -29,8 +29,8 @@ function email(data) {
 function display(data) {
   var string = "";
 
-  // loop though the json keyword 
-  // to get all the ingredient 
+  // loop though the json keyword
+  // to get all the ingredient
   for (var i = 0; i < data.keyword.length; i++) {
     string += data.keyword[i].ingredient + ", ";
   }
@@ -46,7 +46,7 @@ function display(data) {
 
 // randomly generated recipe on landing page
 var getDataFromDatabase = function() {
-  // make random number from the length of 
+  // make random number from the length of
   // the database.
   var getRandom = Math.floor((Math.random() * database.length) + 1);
 
@@ -59,11 +59,11 @@ $(document).ready(function() {
   // display random data from the dasebase
   getDataFromDatabase();
 
-  // search button 
+  // search button
   $("#buttonName").click(function() {
     var searchTermsArr = [];
     var searchTerms = $("input#searchBox").val();
-    // using user input. 
+    // using user input.
     // Split the string to array by ', '
     searchTermsArr = searchTerms.split(", ");
     console.log(searchTermsArr);
@@ -71,7 +71,7 @@ $(document).ready(function() {
     // make search object
     var search = new fetcher;
 
-    // using the searchTermsArr 
+    // using the searchTermsArr
     // to find the keyword within the database
     search.search(database, searchTermsArr);
 
@@ -98,7 +98,7 @@ $(document).ready(function() {
       '</div>');
   });
 
-  // onclick: add recipes to the database 
+  // onclick: add recipes to the database
   // from 'add more recipes'
   $("#addR").click(function() {
     var inputtedDish = $("input#name").val();
@@ -108,7 +108,7 @@ $(document).ready(function() {
 
     var add = new dish(inputtedDish, inputtedCT, inputDetails, inputteddifficulty);
 
-    // loop the all the ingredient 
+    // loop the all the ingredient
     // in class='new-ingredient'
     $(".new-ingredient").each(function() {
       var inputtedIngredient = $(this).find("input.ingredient").val();
@@ -116,7 +116,7 @@ $(document).ready(function() {
       add["keyword"].push(keyword);
     });
 
-    // remove all the other ingredient 
+    // remove all the other ingredient
     // in 'add more recipes'
     $(".removeI").remove();
 

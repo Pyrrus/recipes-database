@@ -253,7 +253,7 @@ var data = {
     "difficulty": "easy",
     "details": "1. Heat oven to 400° F. Place the eggplant (1) on 2 rimmed baking sheets and brush with 1/4 cup of the oil. Season with the (1/2 teaspoon) cayenne and 1/4 teaspoon salt and bake, turning once, until tender, 20 to 25 minutes. Let cool. 2: Meanwhile, mash the beans (1 cup cannellini), garlic (1 clove), tahini (1 tablespoons), lemon juice (1 tablespoons), the remaining one tablespoon of oil, 1/4 teaspoon salt, and 1/4 teaspoon black pepper in a small bowl. 3: Divide the mashed beans, eggplant, red peppers (1/2 cup roasted), and romaine leaves among the bread."
   }, {
-    "name": "Egg, Frisée, and Caramelized Onion Sandwich",
+    "name": "Egg, Frisee, and Caramelized Onion Sandwich",
     "keyword": [{
       "ingredient": "olive oil"
     }, {
@@ -267,13 +267,13 @@ var data = {
     }, {
       "ingredient": "blackberry jam"
     }, {
-      "ingredient": "frisée"
+      "ingredient": "frisee"
     }, {
       "ingredient": "bread"
     }],
     "cookingTime": "30",
     "difficulty": "easy",
-    "details": "1. Heat the oil (2 tablespoons) in a large nonstick skillet over medium heat. Add the onion (1) and 1/4 teaspoon each salt and pepper and cook, stirring often, until golden, 15 to 18 minutes. Transfer to a plate; reserve the skillet. 2: Add the eggs (4) to the skillet and cook, covered, 2 to 4 minutes for slightly runny yolks. Season with 1/4 teaspoon each salt and pepper. 3: Divide the onion, jam (2 tablespoons blackberry), frisée leaves, and eggs among the brioche rolls."
+    "details": "1. Heat the oil (2 tablespoons) in a large nonstick skillet over medium heat. Add the onion (1) and 1/4 teaspoon each salt and pepper and cook, stirring often, until golden, 15 to 18 minutes. Transfer to a plate; reserve the skillet. 2: Add the eggs (4) to the skillet and cook, covered, 2 to 4 minutes for slightly runny yolks. Season with 1/4 teaspoon each salt and pepper. 3: Divide the onion, jam (2 tablespoons blackberry), frisee leaves, and eggs among the brioche rolls."
   },{
     "name": "Roast Beef With Roasted Tomatoes Sandwich",
     "keyword": [{
@@ -301,7 +301,7 @@ var data = {
     }],
     "cookingTime": "35",
     "difficulty": "easy",
-    "details": "Heat oven to 400° F. Toss the tomatoes, 1 tablespoon of the oil, rosemary (1 teaspoon), and 1/4 teaspoon salt in a 9-by-13-inch baking dish. Roast until very tender, 20 to 25 minutes. Let cool. 2: Meanwhile, combine the sour cream (1/4 cup), horseradish (2 tablespoon), and 1/4 teaspoon pepper in a small bowl. Toss the arugula (1 bunch), lemon juice (1 tablespoons), and the remaining tablespoon of oil in a medium bowl. 4: Divide the tomatoes (4), horseradish cream, arugula, and roast beef among the bread."
+    "details": "Heat oven to 400 degrees F. Toss the tomatoes, 1 tablespoon of the oil, rosemary (1 teaspoon), and 1/4 teaspoon salt in a 9-by-13-inch baking dish. Roast until very tender, 20 to 25 minutes. Let cool. 2: Meanwhile, combine the sour cream (1/4 cup), horseradish (2 tablespoon), and 1/4 teaspoon pepper in a small bowl. Toss the arugula (1 bunch), lemon juice (1 tablespoons), and the remaining tablespoon of oil in a medium bowl. 4: Divide the tomatoes (4), horseradish cream, arugula, and roast beef among the bread."
   },{
     "name": "Turkey, Smashed Peas, and Pesto Sandwich",
     "keyword": [{

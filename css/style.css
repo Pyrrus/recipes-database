@@ -1,4 +1,8 @@
-
+h1 {
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: lucida console;
+}
 #car1 {
   height: 315px;
   width: 100%;
@@ -17,6 +21,9 @@
 #display {
   text-align: center;
   border: solid red;
+}
+#buttonName {
+  margin-top: 35px;
 }
 .input[type=text] {
     width: 130px;
