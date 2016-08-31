@@ -3,6 +3,13 @@ h1 {
   font-weight: bold;
   font-family: lucida console;
 }
+span {
+  cursor:pointer
+}
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
 #car1 {
   height: 315px;
   width: 100%;
@@ -20,22 +27,25 @@ h1 {
 }
 #display {
   text-align: center;
-  border: solid red;
+  border: solid #337ab7;
+}
+#display2 {
+  margin-top: 50px;
+  text-align: center;
+  border: solid #337ab7;
 }
 #buttonName {
   margin-top: 35px;
+}
+#addYours {
+  height: 35px;
+  width: 60px;
 }
 .input[type=text] {
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
-
-/* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
-    width: 100%;
-}
-#addYours {
-  height: 35px;
-  width: 60px;
+.fullLibrary {
+  display: none;
 }
