@@ -1,5 +1,5 @@
 // make a dish object to add more to the database
-function dish(name, ct, details, difficulty) {
+function Dish(name, ct, details, difficulty) {
   this.name = name;
   this.cookingTime = ct;
   this.difficulty = difficulty;
@@ -14,7 +14,7 @@ var keyword = {
 
 // make the comment object to pass to the
 // backend to send them an email
-function comment(name, email, comments) {
+function Comment(name, email, comments) {
   this.name = name;
   this.email = email;
   this.comment = comments;
@@ -28,13 +28,11 @@ function email(data) {
 // display the a part of the database
 function display(data) {
   var string = "";
-
   // loop though the json keyword
   // to get all the ingredient
   for (var i = 0; i < data.keyword.length; i++) {
     string += data.keyword[i].ingredient + ", ";
   }
-
   // set the data from the database to the page
   $("#display").append("<div class='row remove' id='random-recipe'>" +
     "<h2>" + data.name + "</h2>" +
@@ -43,17 +41,15 @@ function display(data) {
     "<p class='col-md-12'>" + data.details + "</p>" +
     "</div>");
 }
+
 function display2(data) {
   var string = "";
-
   // loop though the json keyword
   // to get all the ingredient
   for (var i = 0; i < data.keyword.length; i++) {
     string += data.keyword[i].ingredient + ", ";
   }
-
   $(".remove2").remove();
-
   // set the data from the database to the page
   $("#display2").append("<div class='row remove2' id='random-recipe'>" +
     "<h2>" + data.name + "</h2>" +
@@ -62,23 +58,21 @@ function display2(data) {
     "<p class='col-md-12'>" + data.details + "</p>" +
     "</div>");
 }
+
 // randomly generated recipe on landing page
 var getDataFromDatabase = function() {
   // make random number from the length of
   // the database.
   var getRandom = Math.floor((Math.random() * database.length) + 1);
-
   // display the random data from the database
   display(database[getRandom]);
   display2(database[getRandom]);
-
 }
 
 // UI Logic
 $(document).ready(function() {
   // display random data from the dasebase
   getDataFromDatabase();
-
   // search button
   $("#buttonName").click(function() {
     var searchTermsArr = [];
@@ -86,21 +80,15 @@ $(document).ready(function() {
     // using user input.
     // Split the string to array by ', '
     searchTermsArr = searchTerms.split(", ");
-    console.log(searchTermsArr);
-
     // make search object
-    var search = new fetcher;
-
+    var search = new Fetcher;
     // using the searchTermsArr
     // to find the keyword within the database
     search.search(database, searchTermsArr);
-
     // remove any double in the fetcher object
     search.removedouble();
-
     // remove all the class=".remove"
     $(".remove").remove();
-
     // loop though all the search found array to display
     for (var i = 0; i < search.found.length; i++) {
       display(search.found[i]);
@@ -125,9 +113,7 @@ $(document).ready(function() {
     var inputtedCT = $("input#ct").val();
     var inputteddifficulty = $("#hard").val();
     var inputDetails = $("#details").val();
-
-    var add = new dish(inputtedDish, inputtedCT, inputDetails, inputteddifficulty);
-
+    var add = new Dish(inputtedDish, inputtedCT, inputDetails, inputteddifficulty);
     // loop the all the ingredient
     // in class='new-ingredient'
     $(".new-ingredient").each(function() {
@@ -135,14 +121,11 @@ $(document).ready(function() {
       keyword["ingredient"] = inputtedIngredient;
       add["keyword"].push(keyword);
     });
-
     // remove all the other ingredient
     // in 'add more recipes'
     $(".removeI").remove();
-
     // add to the database
     database.push(add);
-
     // reset the input to nothing
     $("input#name").val("");
     $("input#ct").val("");
@@ -182,7 +165,6 @@ $(document).ready(function() {
     for(i=0;i<database.length;i++) {
       $("ul#fullLib1").append("<li class='fullLibReturn'><span id='" + database[i].name + "'>" + database[i].name + "</span></li>");
     }
-
     $("span").click(function () {
       var data = $(this).attr('id');
       for (var i = 0; i < database.length; i++) {
@@ -192,6 +174,7 @@ $(document).ready(function() {
       }
     })
   });
+
   var selector = '.nav li';
   $("#ingredientSearch").on('click', function(){
     $(selector).removeClass('active');

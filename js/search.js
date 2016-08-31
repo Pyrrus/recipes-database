@@ -1,13 +1,13 @@
 // make the object for the fetcher 
 // to find the data from the database
-var fetcher = function () {
+var Fetcher = function () {
   this.found = [];
 }
 
 // This is the search algorithms to search though the 
 // database by the ingredient by the user. Once found the it
 // will add it to the array within the fetcher object
-fetcher.prototype.search = function (database, keyword) {
+Fetcher.prototype.search = function (database, keyword) {
   var holder = [];
   database.forEach(function (data) {
     for (var i = 0; i < data["keyword"].length; i++) {
@@ -24,7 +24,7 @@ fetcher.prototype.search = function (database, keyword) {
 
 // this will find the doubles in the found array
 // and remove
-fetcher.prototype.removedouble = function () {
+Fetcher.prototype.removedouble = function () {
   for (var i = 0; i < this.found.length; i++) {
     for (var j = i + 1; j < this.found.length; j++) {
       if (this.found[i] && this.found[j])
@@ -33,16 +33,13 @@ fetcher.prototype.removedouble = function () {
         }
     }
   }
-
   var holder = [];
-
   // remove the delete item from the found
   for (var i = 0; i < this.found.length; i++) {
     if (this.found[i]) {
       holder.push(this.found[i]);
     }
   }
-
   // set found to holder
   this.found = holder;
 }
