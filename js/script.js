@@ -44,6 +44,7 @@ var getDataFromDatabase = function() {
 // UI Logic
 $(document).ready(function() {
 getDataFromDatabase();
+
 // search button
 $("#buttonName").click(function(){
   var searchTermsArr = [];
