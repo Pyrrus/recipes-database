@@ -7,6 +7,11 @@ Plain English Specs:
 ### The program can take in a single English word, or multiple words separated by commas and spaces and search through the database for a matching ingredient name .
   * Example Input: eggs, rice
   * Example Output: Breakfast burrito, Chicken and rice
+### By clicking on the "Full Library" button, the full library of recipes can be viewed. Each recipe can be viewed by clicking on it's title in the list.
+  * Example Input: Click "Full library"
+  * Example Output: Show full recipe list
+  * Example Input: Click a recipe name
+  * Example Output: Show recipe details on page. 
 ### To add more recipes a button can be clicked to open a pop-up.
   * Example Input: Click "Add more Recipes" button
   * Example Output: Show recipe add form
@@ -25,8 +30,8 @@ Plain English Specs:
 ### On "Feedback" form comments and info are sent to backend.
   * Example Input: Click "Submit" button
   * Example Output: Field data is submitted to the backend
-  * 
-  
+  *
+
 
 KNOWN BUGS
 
@@ -42,7 +47,7 @@ Our gitghub repository sits on the corner of cool and really freakin' amazing
 no really it's at  http://www.github.com/pyrrus/recipe-database
 
 Software used:
-We used pure genius, 
+We used pure genius,
 Atom
 HTML
 CSS
