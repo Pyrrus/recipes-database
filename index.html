@@ -158,20 +158,19 @@
             <h4 class="modal-title">Feedback</h4>
           </div>
           <div class="modal-body">
-            <div class="container">
               <p>Add your name, email and comments below</p>
-              <label for="names">Name</label>
-              <br>
-              <input id="names" type="text">
-              <br>
-              <label for="email">Email address</label>
-              <br>
-              <input id="email" type="text">
-              <br>
-              <label for="inputtedComment">Enter your comments</label>
-              <br>
-              <input id="inputtedComment" type="text">
-            </div>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="names">
+              </div>
+              <div class="form-group">
+                <label for="name">Email address</label>
+                <input type="text" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="comments">Enter your comments</label>
+                <input type="text" class="form-control" id="inputtedComment">
+              </div>
           </div>
           <div class="modal-footer">
             <button id="commentAdd" type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
