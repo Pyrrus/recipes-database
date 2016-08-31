@@ -43,7 +43,25 @@ function display(data) {
     "<p class='col-md-12'>" + data.details + "</p>" +
     "</div>");
 }
+function display2(data) {
+  var string = "";
 
+  // loop though the json keyword
+  // to get all the ingredient
+  for (var i = 0; i < data.keyword.length; i++) {
+    string += data.keyword[i].ingredient + ", ";
+  }
+
+  $(".remove2").remove();
+
+  // set the data from the database to the page
+  $("#display2").append("<div class='row remove2' id='random-recipe'>" +
+    "<h2>" + data.name + "</h2>" +
+    "<h4>" + "Cooking Time: " + data.cookingTime + "   - Difficulty: " + data.difficulty + "</h4>" +
+    "<h5>What you will need: " + string + "</h5>" +
+    "<p class='col-md-12'>" + data.details + "</p>" +
+    "</div>");
+}
 // randomly generated recipe on landing page
 var getDataFromDatabase = function() {
   // make random number from the length of
@@ -52,6 +70,8 @@ var getDataFromDatabase = function() {
 
   // display the random data from the database
   display(database[getRandom]);
+  display2(database[getRandom]);
+
 }
 
 // UI Logic
@@ -87,7 +107,7 @@ $(document).ready(function() {
     }
   });
 
-  // onclick: add ingredient input to 
+  // onclick: add ingredient input to
   // 'add more recipes'
   $("#add-ingredient").click(function() {
     $("#new-ingredient").append('<div class="new-ingredient removeI">' +
@@ -139,5 +159,31 @@ $(document).ready(function() {
     $("input#inputtedComments").val("");
     var info = new comment(inputtedName, inputtedEmail, inputtedComment);
     email(info);
+  });
+  var selector = '.nav li';
+  $("#fullLibrary").on('click', function(){
+    $(selector).removeClass('active');
+    $(this).addClass('active');
+    $(".ingredientSearch").hide();
+    $(".fullLibrary").show();
+    for(i=0;i<database.length;i++) {
+      $("ul#fullLib1").append("<li><span class='fullLibReturn' id='" + database[i].name + "'>" + database[i].name + "</span></li>");
+    }
+
+    $("span").click(function () {
+      var data = $(this).attr('id');
+      for (var i = 0; i < database.length; i++) {
+        if (database[i].name === data) {
+          display2(database[i])
+        }
+      }
+    })
+  });
+  var selector = '.nav li';
+  $("#ingredientSearch").on('click', function(){
+    $(selector).removeClass('active');
+    $(this).addClass('active');
+    $(".fullLibrary").hide();
+    $(".ingredientSearch").show();
   });
 });
