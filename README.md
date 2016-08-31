@@ -1,3 +1,5 @@
+# Ingredient Search Recipe Database
+
  This is week 5 team week challenge
    Our recipe database comes stock with 80 different recipes and options for more. A search built in and a comment form, and it sings and dances on the side, well maybe not so much but check it out anyway.
 
@@ -11,7 +13,7 @@ Plain English Specs:
   * Example Input: Click "Full library"
   * Example Output: Show full recipe list
   * Example Input: Click a recipe name
-  * Example Output: Show recipe details on page. 
+  * Example Output: Show recipe details on page.
 ### To add more recipes a button can be clicked to open a pop-up.
   * Example Input: Click "Add more Recipes" button
   * Example Output: Show recipe add form
